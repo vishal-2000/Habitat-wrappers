@@ -94,30 +94,30 @@ def test_panda_robot_wrapper(fixed_base):
         # test gripper state
         panda.open_gripper()
         observations += simulate(sim, 1.0, produce_debug_video)
-        # assert panda.is_gripper_open
-        #assert not panda.is_gripper_closed
-        #panda.close_gripper()
-        #observations += simulate(sim, 1.0, produce_debug_video)
-        #assert panda.is_gripper_closed
-        #assert not panda.is_gripper_open
+        assert panda.is_gripper_open
+        assert not panda.is_gripper_closed
+        panda.close_gripper()
+        observations += simulate(sim, 1.0, produce_debug_video)
+        assert panda.is_gripper_closed
+        assert not panda.is_gripper_open
 
         # halfway open
         panda.set_gripper_target_state(0.5)
         observations += simulate(sim, 0.5, produce_debug_video)
-        #assert not panda.is_gripper_open
-        #assert not panda.is_gripper_closed
+        assert not panda.is_gripper_open
+        assert not panda.is_gripper_closed
 
         # kinematic open/close (checked before simulation)
         panda.gripper_joint_pos = panda.params.gripper_open_state
-        #assert np.allclose(panda.gripper_joint_pos, panda.params.gripper_open_state)
-        #assert panda.is_gripper_open
+        assert np.allclose(panda.gripper_joint_pos, panda.params.gripper_open_state)
+        assert panda.is_gripper_open
         observations += simulate(sim, 0.2, produce_debug_video)
         panda.gripper_joint_pos = panda.params.gripper_closed_state
-        #assert panda.is_gripper_closed
+        assert panda.is_gripper_closed
         observations += simulate(sim, 0.2, produce_debug_video)
 
         # end effector queries
-        # print(f" End effector link id = {panda.ee_link_id}")
+        #print(f" End effector link id = {panda.ee_link_id}")
         #print(f" End effector local offset = {panda.ee_local_offset}")
         #print(f" End effector transform = {panda.ee_transform}")
         #print(
