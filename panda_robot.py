@@ -14,7 +14,7 @@ class PandaRobot(MobileManipulator):
             arm_joints=list(range(0, 7)),
             gripper_joints=[9, 10],
             wheel_joints=None, # [2, 4],
-            arm_init_params=[0, 0, 0, 0, 0, 3.1416, 1.57],# [ -1.08, 0.1, 0.935, -0.001, 1.573, 0.005],
+            arm_init_params=[0, 0, 0, -0.10, 0, 3.1416, 1.57],# [ -1.08, 0.1, 0.935, -0.001, 1.573, 0.005],
             gripper_init_params=[0.00, 0.00],
             ee_offset=mn.Vector3(0.107, 0, 0), # 0.08, 0, 0
             ee_link=8,
@@ -45,11 +45,11 @@ class PandaRobot(MobileManipulator):
             arm_mtr_vel_gain=0.3,
             arm_mtr_max_impulse=10.0,
             wheel_mtr_pos_gain=0.0,
-            wheel_mtr_vel_gain=1.3,
+            wheel_mtr_vel_gain=0.0,# 1.3,
             wheel_mtr_max_impulse=10.0,
             base_offset=mn.Vector3(0, 0, 0),
             base_link_names={
-                "virtual_joint"
+                "panda_link0"
             },
         )
         super().__init__(panda_params, urdf_path, sim, limit_robo_joints, fixed_base)
