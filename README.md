@@ -6,9 +6,10 @@ Warning!!!: Bleeding-edge code (Please check the code files and correct them whe
 ## TODO
 1. [x] Wrapper class for Franka Panda
 2. [x] Change the orientation of franka panda base 
-3. [ ] Load a scene with objects 
-4. [ ] Simple pick and place with Panda with or without a realistic scene 
-5. [ ] Final Pick and place wrappers
+3. [x] Load panda in a scene
+4. [ ] Load various objects and place them in appropriate positions
+5. [ ] Simple pick and place with Panda with or without a realistic scene 
+6. [ ] Final Pick and place wrappers
 
 ## Joint limits
 - (taken from Panda urdf) (for testing purposes)
