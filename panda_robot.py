@@ -60,6 +60,12 @@ class PandaRobot(MobileManipulator):
     def reconfigure(self) -> None:
         super().reconfigure()
 
+        # Orient the robot arm to stand perpendicular to the plane of ground
+        import magnum as mn
+        self.sim_obj.rotation = mn.Quaternion.rotation(
+            mn.Rad(-1.5708), mn.Vector3(1, 0, 0)
+        ) # If you try to use this rotation in your code, do call self.update() for orientation update
+
         # NOTE: this is necessary to set locked head and back positions
         self.update()
 
@@ -69,10 +75,10 @@ class PandaRobot(MobileManipulator):
         # NOTE: this is necessary to set locked head and back positions
         self.update()
 
-    @property
+    @property # decorators
     def base_transformation(self):
         add_rot = mn.Matrix4.rotation(mn.Rad(-np.pi / 2), mn.Vector3(1.0, 0, 0))
-        return self.sim_obj.transformation @ add_rot
+        return self.sim_obj.transformation @ add_rot # @ symbol here is a __mat_mul__ operator used for matrix multiplications
 
     def update(self):
         super().update()

@@ -13,7 +13,7 @@ def test_panda_robot_wrapper(fixed_base):
     produce_debug_video = True
     observations = []
     cfg_settings = examples.settings.default_sim_settings.copy()
-    cfg_settings["scene"] = "NONE"# "/home/vishal/Volume_E/Active/Undergrad_research/Harish_Y/Project_delan/Initial_work/Habitat/habitat-sim/data/scene_datasets/habitat-test-scenes/van-gogh-room.glb"# "NONE"
+    cfg_settings["scene"] = "NONE" # "/home/vishal/Volume_E/Active/Undergrad_research/Harish_Y/Project_delan/Initial_work/Habitat/habitat-sim/data/scene_datasets/habitat-test-scenes/van-gogh-room.glb"# "NONE"
     cfg_settings["enable_physics"] = True
 
     # loading the physical scene
@@ -51,7 +51,7 @@ def test_panda_robot_wrapper(fixed_base):
 
         # retract the arm
         observations += panda._interpolate_arm_control(
-            [1.2299035787582397, 2.345386505126953],
+            [1.2299035787582397, -2.345386505126953],
             [panda.params.arm_joints[1], panda.params.arm_joints[3]],
             1,
             30,
@@ -60,7 +60,7 @@ def test_panda_robot_wrapper(fixed_base):
 
         # ready the arm
         observations += panda._interpolate_arm_control(
-            [-3.45, 2.1],
+            [-1.15, -2.1],
             [panda.params.arm_joints[1], panda.params.arm_joints[3]],
             1,
             30,
@@ -141,3 +141,12 @@ def test_panda_robot_wrapper(fixed_base):
             )
 
 test_panda_robot_wrapper(True)
+
+# Load objects
+# Load scene
+# Gripping objects
+# Stable manipulator
+# Scene Origin
+
+# Issues
+# Joint
