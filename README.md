@@ -4,11 +4,11 @@ Wrapper classes and manipulator tests for Habitat simulator
 Warning!!!: Bleeding-edge code (Please check the code files and correct them where and when necessary based on your system and usage requirements)
 
 ## TODO
-1. Wrapper class for Franka Panda
-2. Change the orientation of franka panda base 
-3. Load a scene with objects 
-4. Simple pick and place with Panda with or without a realistic scene 
-5. Final Pick and place wrappers
+1. [x] Wrapper class for Franka Panda
+2. [x] Change the orientation of franka panda base 
+3. [ ] Load a scene with objects 
+4. [ ] Simple pick and place with Panda with or without a realistic scene 
+5. [ ] Final Pick and place wrappers
 
 ## Joint limits
 - (taken from Panda urdf) (for testing purposes)
