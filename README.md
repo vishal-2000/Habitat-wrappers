@@ -9,7 +9,9 @@ Warning!!!: Bleeding-edge code (Please check the code files and correct them whe
 3. [x] Load panda in a scene
 4. [ ] Load various objects and place them in appropriate positions
 5. [ ] Simple pick and place with Panda with or without a realistic scene 
-6. [ ] Final Pick and place wrappers
+6. [ ] Generic IK planner integration
+7. [ ] Add IK planner developed by Dr. Arun and Prajwal
+8. [ ] Train DeLan on Habitat-sim
 
 ## Joint limits
 - (taken from Panda urdf) (for testing purposes)
