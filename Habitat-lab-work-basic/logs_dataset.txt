@@ -1,0 +1,101 @@
+pybullet build time: Sep 22 2020 00:54:31
+Renderer: NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 470.63.01
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+Using driver workarounds:
+    no-forward-compatible-core-context
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+Renderer: NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 470.63.01
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+Using driver workarounds:
+    no-forward-compatible-core-context
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+BulletPhysicsManager::addArticulatedObjectFromURDF: simpleObjectHandle :  kitchen_counter
+BulletPhysicsManager::addArticulatedObjectFromURDF: newArtObjectHandle :  kitchen_counter_:0000
+BulletPhysicsManager::addArticulatedObjectFromURDF: simpleObjectHandle :  fridge
+BulletPhysicsManager::addArticulatedObjectFromURDF: newArtObjectHandle :  fridge_:0000
+BulletPhysicsManager::addArticulatedObjectFromURDF: simpleObjectHandle :  hab_fetch
+BulletPhysicsManager::addArticulatedObjectFromURDF: newArtObjectHandle :  hab_fetch_:0000
+BulletArticulatedObject::createMotorsForAllDofs():  {(27, 24), (26, 23), (25, 21), (24, 20), (23, 19), (22, 18), (21, 17), (20, 16), (19, 15), (18, 9), (17, 8), (16, 6), (15, 4), (14, 2)}
+b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,467]:
+Bad inertia tensor properties, setting inertia to zero for link: r_gripper_finger_link
+b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,467]:
+Bad inertia tensor properties, setting inertia to zero for link: l_gripper_finger_link
+b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,467]:
+Bad inertia tensor properties, setting inertia to zero for link: r_gripper_finger_link
+b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,467]:
+Bad inertia tensor properties, setting inertia to zero for link: l_gripper_finger_link
+b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,467]:
+Bad inertia tensor properties, setting inertia to zero for link: r_gripper_finger_link
+b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,467]:
+Bad inertia tensor properties, setting inertia to zero for link: l_gripper_finger_link
+b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,467]:
+Bad inertia tensor properties, setting inertia to zero for link: r_gripper_finger_link
+b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,467]:
+Bad inertia tensor properties, setting inertia to zero for link: l_gripper_finger_link
+Environment creation successful
+Agent acting inside environment.
+get_agent_state: AgentState(position=array([0., 0., 0.], dtype=float32), rotation=quaternion(1, 0, 0, 0), velocity=array([0., 0., 0.]), angular_velocity=array([0., 0., 0.]), force=array([0., 0., 0.]), torque=array([0., 0., 0.]), sensor_states={'robot_head_rgb': SixDOFPose(position=array([0.  , 1.25, 0.  ], dtype=float32), rotation=quaternion(1, 0, 0, 0)), 'robot_head_depth': SixDOFPose(position=array([0.  , 1.25, 0.  ], dtype=float32), rotation=quaternion(1, 0, 0, 0)), 'robot_arm_rgb': SixDOFPose(position=array([0.  , 1.25, 0.  ], dtype=float32), rotation=quaternion(1, 0, 0, 0)), 'robot_arm_depth': SixDOFPose(position=array([0.  , 1.25, 0.  ], dtype=float32), rotation=quaternion(1, 0, 0, 0)), 'robot_third_rgb': SixDOFPose(position=array([0.  , 1.25, 0.  ], dtype=float32), rotation=quaternion(1, 0, 0, 0))})
+Scene obj ids: [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+Get targets: (array([0]), array([[ 0.2, -2. ,  0. ]], dtype=float32))
+Get target objs start: [[-2.2563863   0.8551587  -0.02341979]]
+Get metrics: {'object_to_goal_distance': {0: 3.7664723}, 'robot_force': 0.0, 'robot_collisions': {'total_collisions': 0, 'robot_obj_colls': 0, 'robot_scene_colls': 0, 'obj_scene_colls': 0}, 'ee_to_rest_distance': 0.28231215928646464, 'ee_to_object_distance': {0: 0.39432332}, 'rearrangepick_success': False, 'rearrangepick_reward': 0.0}
+Target EE.[[0.2 0.  0.9]]
+Type of target_ee.<class 'numpy.ndarray'>
+EE distance: 0.573294518776652	 Joint Distance: 1.2879450937798267
+1. Object ID: 13	Position: Vector(-2.25639, 0.855159, -0.0234198)
+2. Object ID: 14	Position: Vector(-2.01299, 0.829179, 0.044976)
+3. Object ID: 15	Position: Vector(-2.2196, 0.826844, 0.154774)
+4. Object ID: 16	Position: Vector(-2.03389, 0.891866, -0.218362)
+5. Object ID: 17	Position: Vector(-2.10498, 0.855662, -0.313891)
+6. Object ID: 18	Position: Vector(4.13382, 0.974742, -0.0419042)
+7. Object ID: 19	Position: Vector(3.5861, 0.978432, 0.196967)
+8. Object ID: 20	Position: Vector(3.96283, 0.94792, -0.287548)
+9. Object ID: 21	Position: Vector(4.00699, 1.00346, -0.0419033)
+10. Object ID: 22	Position: Vector(3.73961, 0.978947, -0.281674)
+11. Object ID: 23	Position: Vector(0.889705, 0.451142, 6.46314)
+12. Object ID: 24	Position: Vector(1.04763, 0.450615, 6.2694)
+13. Object ID: 25	Position: Vector(-2.08719, 0.824642, 1.9679)
+14. Object ID: 26	Position: Vector(-2.23167, 0.837077, 1.79411)
+15. Object ID: 27	Position: Vector(-2.00386, 0.855169, 1.88057)
+16. Object ID: 28	Position: Vector(-2.27877, 0.851444, 2.18443)
+17. Object ID: 29	Position: Vector(-2.03976, 0.826844, 1.6737)
+18. Object ID: 30	Position: Vector(-2.21056, 1.066, -0.891026)
+19. Object ID: 31	Position: Vector(-2.04999, 1.6456, -0.97677)
+20. Object ID: 32	Position: Vector(-2.07833, 1.29202, -1.0536)
+Closest obj id: 29	Closest Distance: 3.0395829528324567

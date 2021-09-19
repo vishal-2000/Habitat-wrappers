@@ -1,0 +1,144 @@
+pybullet build time: Sep 22 2020 00:54:31
+Renderer: NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 470.63.01
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+Using driver workarounds:
+    no-forward-compatible-core-context
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+Renderer: NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 470.63.01
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+Using driver workarounds:
+    no-forward-compatible-core-context
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+BulletPhysicsManager::addArticulatedObjectFromURDF: simpleObjectHandle :  kitchen_counter
+BulletPhysicsManager::addArticulatedObjectFromURDF: newArtObjectHandle :  kitchen_counter_:0000
+BulletPhysicsManager::addArticulatedObjectFromURDF: simpleObjectHandle :  fridge
+BulletPhysicsManager::addArticulatedObjectFromURDF: newArtObjectHandle :  fridge_:0000
+BulletPhysicsManager::addArticulatedObjectFromURDF: simpleObjectHandle :  hab_fetch
+BulletPhysicsManager::addArticulatedObjectFromURDF: newArtObjectHandle :  hab_fetch_:0000
+BulletArticulatedObject::createMotorsForAllDofs():  {(27, 24), (26, 23), (25, 21), (24, 20), (23, 19), (22, 18), (21, 17), (20, 16), (19, 15), (18, 9), (17, 8), (16, 6), (15, 4), (14, 2)}
+b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,467]:
+Bad inertia tensor properties, setting inertia to zero for link: r_gripper_finger_link
+b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,467]:
+Bad inertia tensor properties, setting inertia to zero for link: l_gripper_finger_link
+b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,467]:
+Bad inertia tensor properties, setting inertia to zero for link: r_gripper_finger_link
+b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,467]:
+Bad inertia tensor properties, setting inertia to zero for link: l_gripper_finger_link
+b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,467]:
+Bad inertia tensor properties, setting inertia to zero for link: r_gripper_finger_link
+b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,467]:
+Bad inertia tensor properties, setting inertia to zero for link: l_gripper_finger_link
+b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,467]:
+Bad inertia tensor properties, setting inertia to zero for link: r_gripper_finger_link
+b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,467]:
+Bad inertia tensor properties, setting inertia to zero for link: l_gripper_finger_link
+Environment creation successful
+Agent acting inside environment.
+Static objects: [['data/objects/ycb/008_pudding_box', [[[0.8758383989334106, -0.47564756870269775, -0.08164823800325394, 0.0], [0.4762641191482544, 0.8792060613632202, -0.013005167245864868, 0.0], [0.07797151058912277, -0.027495700865983963, 0.9965763092041016, 0.0], [-2.2563655376434326, 0.8551579713821411, -0.023505456745624542, 1.0]], 2]], ['data/objects/ycb/008_pudding_box', [[[0.9290966987609863, -0.005897298455238342, 0.36978986859321594, 0.0], [0.3695659637451172, -0.023461271077394485, -0.9289082288742065, 0.0], [0.014153808355331421, 0.9997073411941528, -0.01961834728717804, 0.0], [-2.0126984119415283, 0.8291603326797485, 0.04457370936870575, 1.0]], 2]], ['data/objects/ycb/007_tuna_fish_can', [[[0.999317467212677, 1.4882534742355347e-06, -0.03694108501076698, 0.0], [0.03694108873605728, -1.0268704500049353e-06, 0.9993175864219666, 0.0], [1.4528632164001465e-06, -1.0000001192092896, -1.0812364052981138e-06, 0.0], [-2.2195968627929688, 0.8268469572067261, 0.15478000044822693, 1.0]], 2]], ['data/objects/ycb/003_cracker_box', [[[0.9983850121498108, 0.03558961674571037, 0.04427983611822128, 0.0], [-0.03503985330462456, 0.9992996454238892, -0.01313069649040699, 0.0], [-0.04471614211797714, 0.011557931080460548, 0.9989328980445862, 0.0], [-2.0339231491088867, 0.8918706178665161, -0.21836209297180176, 1.0]], 2]], ['data/objects/ycb/004_sugar_box', [[[0.9973750710487366, 0.06583159416913986, -0.030152903869748116, 0.0], [-0.0654834434390068, 0.9977766871452332, 0.012392721138894558, 0.0], [0.030901698395609856, -0.010385674424469471, 0.9994684457778931, 0.0], [-2.1048362255096436, 0.8556722402572632, -0.31387394666671753, 1.0]], 2]], ['data/objects/ycb/010_potted_meat_can', [[[0.9998730421066284, -0.015835653990507126, 0.001741419080644846, 0.0], [-0.0017519956454634666, -0.0006540147587656975, 0.9999983310699463, 0.0], [-0.015834486111998558, -0.999874472618103, -0.0006816757377237082, 0.0], [4.133815765380859, 1.015892505645752, -0.041904181241989136, 1.0]], 2]], ['data/objects/ycb/008_pudding_box', [[[0.8738473057746887, -0.47565361857414246, -0.10072004050016403, 0.0], [0.47590240836143494, 0.8791947960853577, -0.023095503449440002, 0.0], [0.09953799098730087, -0.02775096520781517, 0.9946466684341431, 0.0], [3.586104393005371, 1.0195822715759277, 0.19696705043315887, 1.0]], 2]], ['data/objects/ycb/009_gelatin_box', [[[0.9737366437911987, -5.21540641784668e-07, 0.22767716646194458, 0.0], [0.22767716646194458, 5.587935447692871e-07, -0.9737366437911987, 0.0], [3.8743019104003906e-07, 1.0, 6.621703505516052e-07, 0.0], [3.962826728820801, 0.9890701174736023, -0.28754812479019165, 1.0]], 2]], ['data/objects/ycb/002_master_chef_can', [[[0.9999998807907104, -1.3923025107942522e-05, -0.0004058260819874704, 0.0], [0.0004058261401951313, 6.03562648393563e-06, 0.9999999403953552, 0.0], [-1.3920522178523242e-05, -1.0, 6.041276719770394e-06, 0.0], [4.006987571716309, 1.044610619544983, -0.04190332815051079, 1.0]], 2]], ['data/objects/ycb/004_sugar_box', [[[0.9978259205818176, 0.06590291112661362, -0.0004295907274354249, 0.0], [-0.06589489430189133, 0.9977723956108093, 0.010395229794085026, 0.0], [0.0011137096444144845, -0.010344321839511395, 0.999945878982544, 0.0], [3.739609956741333, 1.0200968980789185, -0.2816742956638336, 1.0]], 2]], ['data/objects/ycb/024_bowl', [[[0.9996955990791321, -0.012679650448262691, 0.021164707839488983, 0.0], [0.021249771118164062, 0.0066118910908699036, -0.9997523427009583, 0.0], [0.012536570429801941, 0.9998977780342102, 0.006879318039864302, 0.0], [0.8897045254707336, 0.49229171872138977, 6.463136672973633, 1.0]], 2]], ['data/objects/ycb/024_bowl', [[[1.0, -2.265400871692691e-05, 8.063730638241395e-05, 0.0], [8.063745190156624e-05, 6.434634542529238e-06, -0.9999999403953552, 0.0], [2.26534903049469e-05, 0.9999999403953552, 6.436461262637749e-06, 0.0], [1.047632098197937, 0.49176517128944397, 6.26939582824707, 1.0]], 2]], ['data/objects/ycb/009_gelatin_box', [[[0.9831644296646118, 8.195638656616211e-08, 0.18272320926189423, 0.0], [0.18272319436073303, -6.09084963798523e-07, -0.9831645488739014, 0.0], [1.4901161193847656e-08, 1.0000001192092896, -6.146728992462158e-07, 0.0], [-2.0871922969818115, 0.824648916721344, 1.9679007530212402, 1.0]], 2]], ['data/objects/ycb/024_bowl', [[[1.0, 1.8354321582592092e-05, 5.814734322484583e-05, 0.0], [5.814672476844862e-05, 3.373583240318112e-05, -0.9999999403953552, 0.0], [-1.8356278815190308e-05, 0.9999999403953552, 3.373476647539064e-05, 0.0], [-2.2316696643829346, 0.8370808362960815, 1.7941168546676636, 1.0]], 2]], ['data/objects/ycb/008_pudding_box', [[[0.8748679161071777, -0.475650817155838, -0.09144583344459534, 0.0], [0.47611430287361145, 0.879197359085083, -0.01808517426252365, 0.0], [0.08900116384029388, -0.02771652862429619, 0.9956457614898682, 0.0], [-2.003890037536621, 0.8551605343818665, 1.88066565990448, 1.0]], 2]], ['data/objects/ycb/010_potted_meat_can', [[[0.9987892508506775, -0.015850603580474854, 0.04657014086842537, 0.0], [-0.046586792916059494, -0.0006828898913227022, 0.9989140033721924, 0.0], [-0.01580158993601799, -0.9998741149902344, -0.001420492073521018, 0.0], [-2.278773784637451, 0.8514707684516907, 2.184378147125244, 1.0]], 2]], ['data/objects/ycb/007_tuna_fish_can', [[[0.9999830722808838, -8.7034422904253e-06, 0.005819255486130714, 0.0], [-0.005819255486130714, -3.1955178201314993e-06, 0.9999830722808838, 0.0], [-8.684815838932991e-06, -1.0, -3.2461111914017238e-06, 0.0], [-2.039766788482666, 0.8268470764160156, 1.673701524734497, 1.0]], 2]], ['data/objects/ycb/007_tuna_fish_can', [[[0.9999983310699463, 0.00011497666127979755, 0.0018130536191165447, 0.0], [-0.0018136842409148812, 0.005745082162320614, 0.9999819397926331, 0.0], [0.00010455830488353968, -0.9999836087226868, 0.005745281465351582, 0.0], [-2.2105393409729004, 1.066019058227539, -0.891040027141571, 1.0]], 2]], ['data/objects/ycb/008_pudding_box', [[[0.8787785172462463, -0.4758658707141876, -0.036055177450180054, 0.0], [0.4763430655002594, 0.8792422413825989, 0.0055105676874518394, 0.0], [0.029078945517539978, -0.022017203271389008, 0.9993345737457275, 0.0], [-2.050016403198242, 1.6455966234207153, -0.9768116474151611, 1.0]], 2]], ['data/objects/ycb/005_tomato_soup_can', [[[0.9999998807907104, -4.614837234839797e-05, -0.00042127963388338685, 0.0], [0.0004215413937345147, 0.005827610846608877, 0.999983012676239, 0.0], [-4.369248927105218e-05, -0.9999831318855286, 0.005827629938721657, 0.0], [-2.078303337097168, 1.2920068502426147, -1.0534383058547974, 1.0]], 2]]]
+
+-----------------------------------------------------------------------------------------------------
+
+VIz object ids: []
+
+-----------------------------------------------------------------------------------------------------
+
+No of static objects: 20
+
+-----------------------------------------------------------------------------------------------------
+
+Closest object id: 16	 Distance: [-2.0338864   0.89186555 -0.2183619 ]
+SCENE obj pos: [[-2.2563863   0.8551587  -0.02341979]
+ [-2.0129874   0.82917887  0.04497597]
+ [-2.2196012   0.82684374  0.15477401]
+ [-2.0338864   0.89186555 -0.2183619 ]
+ [-2.1049783   0.85566175 -0.31389067]
+ [ 4.133816    0.9747424  -0.04190418]
+ [ 3.5861044   0.9784322   0.19696705]
+ [ 3.9628267   0.94791996 -0.28754812]
+ [ 4.0069876   1.0034605  -0.04190333]
+ [ 3.73961     0.9789468  -0.2816743 ]
+ [ 0.8897045   0.4511417   6.4631367 ]
+ [ 1.0476321   0.45061514  6.269396  ]
+ [-2.0871878   0.82464176  1.9678974 ]
+ [-2.2316718   0.8370774   1.794112  ]
+ [-2.003864    0.85516894  1.8805747 ]
+ [-2.2787714   0.8514436   2.1844265 ]
+ [-2.0397635   0.8268437   1.6737024 ]
+ [-2.2105613   1.0659976  -0.89102554]
+ [-2.049994    1.645604   -0.9767703 ]
+ [-2.0783272   1.2920175  -1.0536004 ]]
+1. Object ID: 13	Position: [-2.2563863   0.8551587  -0.02341979]
+2. Object ID: 14	Position: [-2.0129874   0.82917887  0.04497597]
+3. Object ID: 15	Position: [-2.2196012   0.82684374  0.15477401]
+4. Object ID: 16	Position: [-2.0338864   0.89186555 -0.2183619 ]
+5. Object ID: 17	Position: [-2.1049783   0.85566175 -0.31389067]
+6. Object ID: 18	Position: [ 4.133816    0.9747424  -0.04190418]
+7. Object ID: 19	Position: [3.5861044  0.9784322  0.19696705]
+8. Object ID: 20	Position: [ 3.9628267   0.94791996 -0.28754812]
+9. Object ID: 21	Position: [ 4.0069876   1.0034605  -0.04190333]
+10. Object ID: 22	Position: [ 3.73961    0.9789468 -0.2816743]
+11. Object ID: 23	Position: [0.8897045 0.4511417 6.4631367]
+12. Object ID: 24	Position: [1.0476321  0.45061514 6.269396  ]
+13. Object ID: 25	Position: [-2.0871878   0.82464176  1.9678974 ]
+14. Object ID: 26	Position: [-2.2316718  0.8370774  1.794112 ]
+15. Object ID: 27	Position: [-2.003864    0.85516894  1.8805747 ]
+16. Object ID: 28	Position: [-2.2787714  0.8514436  2.1844265]
+17. Object ID: 29	Position: [-2.0397635  0.8268437  1.6737024]
+18. Object ID: 30	Position: [-2.2105613   1.0659976  -0.89102554]
+19. Object ID: 31	Position: [-2.049994   1.645604  -0.9767703]
+20. Object ID: 32	Position: [-2.0783272  1.2920175 -1.0536004]
+Object to be picked: 16	 Position: [-2.0338864   0.89186555 -0.2183619 ]
+Object id: 16	 Target EE: [-2.0338864   0.89186555 -0.2183619 ]
+Trying to reach obj -------------------------------------------------------------------------------------------------------
+Target EE.[[-2.0338864   0.89186555 -0.2183619 ]]
+Type of target_ee.<class 'numpy.ndarray'>
+EE distance: 0.10309576243162155	 Joint Distance: 4.973779769463204	 Collisions: 1	EE_pos: Vector(-2.11803, 0.926249, -0.267002)
+Object PICKED -------------------------------------------------------------------------------------------------------
+Trying to reach rest -------------------------------------------------------------------------------------------------------
+Target EE.[[-2.08722   1.51473  -0.270025]]
+Type of target_ee.<class 'numpy.ndarray'>
+Target joint pos: [-0.65404155 -3.13244856  0.02229567  6.69697048  0.79448897  0.231473
+ -0.03217807]
+EE distance: 0.673298569027508	 Joint Distance: 4.892422928010967	Collisions: 5	EE_pose: Vector(-1.93852, 0.858193, -0.28337)
+Current joint pos: [-0.7689204812049866, -1.2209999561309814, -0.0684838742017746, 2.250999927520752, 1.1525380611419678, 0.5841019153594971, -0.523632824420929]
+EE distance: 0.6254993152405843	 Joint Distance: 4.983387465705645	Collisions: 6	EE_pose: Vector(-2.01332, 0.906871, -0.397681)
+Current joint pos: [-0.7116129994392395, -1.2209999561309814, 0.16686460375785828, 2.250999927520752, 0.38997724652290344, -0.3082410395145416, 0.934633731842041]
+Object to be picked: 16	 Position: [-1.8738388   0.83322334 -0.332681  ]
+Object id: 16	 Target EE: [-1.8738388   0.83322334 -0.332681  ]
+Episode over!!!

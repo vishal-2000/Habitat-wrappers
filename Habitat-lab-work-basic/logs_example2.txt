@@ -1,0 +1,926 @@
+pybullet build time: Sep 22 2020 00:54:31
+Renderer: NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 470.63.01
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+Using driver workarounds:
+    no-forward-compatible-core-context
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+Renderer: NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 470.63.01
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+Using driver workarounds:
+    no-forward-compatible-core-context
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+BulletPhysicsManager::addArticulatedObjectFromURDF: simpleObjectHandle :  kitchen_counter
+BulletPhysicsManager::addArticulatedObjectFromURDF: newArtObjectHandle :  kitchen_counter_:0000
+BulletPhysicsManager::addArticulatedObjectFromURDF: simpleObjectHandle :  fridge
+BulletPhysicsManager::addArticulatedObjectFromURDF: newArtObjectHandle :  fridge_:0000
+BulletPhysicsManager::addArticulatedObjectFromURDF: simpleObjectHandle :  hab_fetch
+BulletPhysicsManager::addArticulatedObjectFromURDF: newArtObjectHandle :  hab_fetch_:0000
+BulletArticulatedObject::createMotorsForAllDofs():  {(27, 24), (26, 23), (25, 21), (24, 20), (23, 19), (22, 18), (21, 17), (20, 16), (19, 15), (18, 9), (17, 8), (16, 6), (15, 4), (14, 2)}
+b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,467]:
+Bad inertia tensor properties, setting inertia to zero for link: r_gripper_finger_link
+b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,467]:
+Bad inertia tensor properties, setting inertia to zero for link: l_gripper_finger_link
+b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,467]:
+Bad inertia tensor properties, setting inertia to zero for link: r_gripper_finger_link
+b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,467]:
+Bad inertia tensor properties, setting inertia to zero for link: l_gripper_finger_link
+Environment creation successful
+Agent acting inside environment.
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.60970414, 0.2740255 , 0.62216514, 0.99290437, 0.28964362,
+       0.17955405, 0.43936783], dtype=float32)), ('grip_action', array([-0.0611513], dtype=float32))])}
+New pose: [-0.4438173472881317, -1.0754468441009521, 0.11042094230651855, 0.9515702128410339, -0.009027983993291855, 1.5746808052062988, 0.019446605816483498]
+New End_effector pose: (0.715057373046875, -0.23275423049926758, 0.9563734531402588)
+New End_effector pose: Vector(-2.10107, 1.10892, -0.269007)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.09914181], dtype=float32))])}
+New pose: [-0.4382316470146179, -1.0743911266326904, 0.10801060497760773, 0.9475396275520325, 0.015656597912311554, 1.583434820175171, 0.0035426272079348564]
+New End_effector pose: (0.7170392870903015, -0.22287513315677643, 0.9572960138320923)
+New End_effector pose: Vector(-2.10285, 1.10994, -0.259385)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.8162215], dtype=float32))])}
+New pose: [-0.4402226209640503, -1.0768636465072632, 0.10714887082576752, 0.9462078213691711, 0.011822609230875969, 1.5759084224700928, 0.004761132411658764]
+New End_effector pose: (0.7184228897094727, -0.22639010846614838, 0.9592381119728088)
+New End_effector pose: Vector(-2.10421, 1.11182, -0.262808)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([ -6.963323, -16.075079], dtype=float32))])}
+New pose: [-0.44436705112457275, -1.0756570100784302, 0.10830143094062805, 0.9481441974639893, -0.004773114807903767, 1.577073335647583, 0.015126832760870457]
+New End_effector pose: (0.715185284614563, -0.23284243047237396, 0.9576248526573181)
+New End_effector pose: Vector(-1.97483, 1.11016, -0.332863)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.7185408], dtype=float32))])}
+New pose: [-0.44464918971061707, -1.0751523971557617, 0.10773959755897522, 0.9472498893737793, -0.004442302044481039, 1.5797587633132935, 0.014376427978277206]
+New End_effector pose: (0.7145435810089111, -0.2329687625169754, 0.9575726985931396)
+New End_effector pose: Vector(-1.9742, 1.11011, -0.332945)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([ 14.212923, -10.345602], dtype=float32))])}
+New pose: [-0.44214752316474915, -1.0759538412094116, 0.10783912986516953, 0.9473409056663513, 0.003466600552201271, 1.5774048566818237, 0.010012293234467506]
+New End_effector pose: (0.7165699601173401, -0.22939391434192657, 0.9581698179244995)
+New End_effector pose: Vector(-2.044, 1.11074, -0.397197)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.83214897], dtype=float32))])}
+New pose: [-0.44104263186454773, -1.0757945775985718, 0.10790830105543137, 0.947425901889801, 0.006930605508387089, 1.5781084299087524, 0.008194107562303543]
+New End_effector pose: (0.7169772386550903, -0.22763419151306152, 0.9580911993980408)
+New End_effector pose: Vector(-2.04471, 1.11068, -0.395581)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.73193395, 0.81634426, 0.03762807, 0.9942132 , 0.596835  ,
+       0.34103972, 0.36914864], dtype=float32)), ('grip_action', array([0.63045835], dtype=float32))])}
+New pose: [-0.433411180973053, -1.0627413988113403, 0.10848899930715561, 0.9638757705688477, 0.0024304247926920652, 1.5804246664047241, 0.02233777940273285]
+New End_effector pose: (0.7141496539115906, -0.2223854511976242, 0.9454023838043213)
+New End_effector pose: Vector(-2.0432, 1.09813, -0.389904)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.8654253 , 0.9708682 , 0.5962335 , 0.90810454, 0.4396793 ,
+       0.42851022, 0.76171464], dtype=float32)), ('grip_action', array([0.7291493], dtype=float32))])}
+New pose: [-0.42082399129867554, -1.0477386713027954, 0.11833587288856506, 0.9751068949699402, 0.010537641122937202, 1.593141794204712, 0.03200552240014076]
+New End_effector pose: (0.7129064798355103, -0.2062627524137497, 0.9339961409568787)
+New End_effector pose: Vector(-2.04519, 1.08698, -0.374055)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([5.3992133, 9.8682995], dtype=float32))])}
+New pose: [-0.41614681482315063, -1.0534945726394653, 0.11585687845945358, 0.970180094242096, 0.03734752908349037, 1.5915769338607788, 0.011961810290813446]
+New End_effector pose: (0.7176325917243958, -0.19735391438007355, 0.9392193555831909)
+New End_effector pose: Vector(-2.08104, 1.09225, -0.326428)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([16.50249 ,  5.474259], dtype=float32))])}
+New pose: [-0.4212177097797394, -1.0556421279907227, 0.11512437462806702, 0.9708216786384583, 0.021399037912487984, 1.582142949104309, 0.020679602399468422]
+New End_effector pose: (0.7175097465515137, -0.2061077356338501, 0.9398623108863831)
+New End_effector pose: Vector(-2.10406, 1.09279, -0.282519)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.79920447, 0.7139601 , 0.09613968, 0.06369587, 0.9439773 ,
+       0.251085  , 0.99564725], dtype=float32)), ('grip_action', array([0.12988994], dtype=float32))])}
+New pose: [-0.4166443347930908, -1.0405042171478271, 0.1178157851099968, 0.9727824330329895, 0.0055079166777431965, 1.591070532798767, 0.05658252164721489]
+New End_effector pose: (0.7145872116088867, -0.20596255362033844, 0.9310052394866943)
+New End_effector pose: Vector(-2.10143, 1.08401, -0.282239)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([11.153969 , -3.0655332], dtype=float32))])}
+New pose: [-0.41027557849884033, -1.0431183576583862, 0.11689376085996628, 0.9717539548873901, 0.033968087285757065, 1.5962222814559937, 0.033574432134628296]
+New End_effector pose: (0.7171071171760559, -0.1939065307378769, 0.9332605004310608)
+New End_effector pose: Vector(-2.08114, 1.08637, -0.332897)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.05456341], dtype=float32))])}
+New pose: [-0.40914231538772583, -1.0467232465744019, 0.11683981865644455, 0.9718916416168213, 0.040288954973220825, 1.586865782737732, 0.02801566943526268]
+New End_effector pose: (0.7204878926277161, -0.19224081933498383, 0.9353910088539124)
+New End_effector pose: Vector(-2.08451, 1.08848, -0.331556)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.20420095], dtype=float32))])}
+New pose: [-0.41263875365257263, -1.0439233779907227, 0.11710190773010254, 0.9720416069030762, 0.025583533570170403, 1.5907490253448486, 0.03935161605477333]
+New End_effector pose: (0.7173904180526733, -0.198134183883667, 0.9334408044815063)
+New End_effector pose: Vector(-2.08106, 1.0865, -0.33702)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.02822964], dtype=float32))])}
+New pose: [-0.4149911105632782, -1.0440458059310913, 0.11694112420082092, 0.9719672203063965, 0.01926714926958084, 1.5920342206954956, 0.04144977778196335]
+New End_effector pose: (0.7159576416015625, -0.20131784677505493, 0.9333462715148926)
+New End_effector pose: Vector(-2.0794, 1.08638, -0.340008)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.5970883], dtype=float32))])}
+New pose: [-0.41329386830329895, -1.0448064804077148, 0.11698807030916214, 0.9719874262809753, 0.024532396346330643, 1.5894800424575806, 0.03863830864429474]
+New End_effector pose: (0.717509925365448, -0.19899334013462067, 0.9339012503623962)
+New End_effector pose: Vector(-2.08109, 1.08695, -0.33787)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([-12.903705, -11.728235], dtype=float32))])}
+New pose: [-0.4113345146179199, -1.0445140600204468, 0.11699587851762772, 0.9719477891921997, 0.030786950141191483, 1.5907927751541138, 0.035308290272951126]
+New End_effector pose: (0.7181123495101929, -0.19589164853096008, 0.9339072704315186)
+New End_effector pose: Vector(-1.95343, 1.08698, -0.386525)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.4904819], dtype=float32))])}
+New pose: [-0.41179439425468445, -1.0444930791854858, 0.11697965860366821, 0.971948504447937, 0.02954457513988018, 1.5910580158233643, 0.035882655531167984]
+New End_effector pose: (0.717829167842865, -0.19650837779045105, 0.933857798576355)
+New End_effector pose: Vector(-1.95305, 1.08693, -0.387067)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.84901375], dtype=float32))])}
+New pose: [-0.41313064098358154, -1.0445334911346436, 0.1169884204864502, 0.9719751477241516, 0.02509971335530281, 1.5903425216674805, 0.0384589359164238]
+New End_effector pose: (0.7173548340797424, -0.1986542046070099, 0.9337656497955322)
+New End_effector pose: Vector(-1.95221, 1.08682, -0.38904)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.62715894], dtype=float32))])}
+New pose: [-0.4132806360721588, -1.0444588661193848, 0.11698634177446365, 0.9719755053520203, 0.0245268102735281, 1.590579628944397, 0.038749031722545624]
+New End_effector pose: (0.7172046303749084, -0.1988888680934906, 0.9337087869644165)
+New End_effector pose: Vector(-1.95202, 1.08676, -0.389239)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.89245754, 0.25233188, 0.13612144, 0.52012795, 0.05774761,
+       0.22999443, 0.65140164], dtype=float32)), ('grip_action', array([0.35062566], dtype=float32))])}
+New pose: [-0.4013099670410156, -1.040391206741333, 0.11926044523715973, 0.980644941329956, 0.016046244651079178, 1.592922329902649, 0.05495001748204231]
+New End_effector pose: (0.7161787748336792, -0.19218172132968903, 0.9285616278648376)
+New End_effector pose: Vector(-1.95241, 1.08173, -0.38242)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.42215288, 0.32618928, 0.5417609 , 0.7942383 , 0.2627988 ,
+       0.07429732, 0.21166216], dtype=float32)), ('grip_action', array([-0.35609522], dtype=float32))])}
+New pose: [-0.39243605732917786, -1.0355385541915894, 0.12775564193725586, 0.991748034954071, 0.03759908676147461, 1.5960006713867188, 0.045973144471645355]
+New End_effector pose: (0.7168536186218262, -0.17573094367980957, 0.9232699275016785)
+New End_effector pose: Vector(-1.95612, 1.07662, -0.366681)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([-15.73516,   9.78104], dtype=float32))])}
+New pose: [-0.39128392934799194, -1.0373834371566772, 0.12541882693767548, 0.987973153591156, 0.04961802437901497, 1.596731185913086, 0.036864493042230606]
+New End_effector pose: (0.71859210729599, -0.17281651496887207, 0.9257433414459229)
+New End_effector pose: Vector(-1.88653, 1.0791, -0.285753)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.8632034 , 0.20316947, 0.97222185, 0.8964238 , 0.7711783 ,
+       0.88801587, 0.81051755], dtype=float32)), ('grip_action', array([-0.43213972], dtype=float32))])}
+New pose: [-0.3879081606864929, -1.034833312034607, 0.14108408987522125, 1.0028538703918457, 0.023538164794445038, 1.604354739189148, 0.07349956035614014]
+New End_effector pose: (0.7124317288398743, -0.16984114050865173, 0.9193140864372253)
+New End_effector pose: Vector(-1.88096, 1.07277, -0.282105)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.49333563], dtype=float32))])}
+New pose: [-0.3823680579662323, -1.0334349870681763, 0.138197124004364, 1.0002573728561401, 0.04881253093481064, 1.6102670431137085, 0.05398945510387421]
+New End_effector pose: (0.7140390276908875, -0.16013991832733154, 0.9201749563217163)
+New End_effector pose: Vector(-1.88332, 1.07372, -0.27286)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.7915714], dtype=float32))])}
+New pose: [-0.3830578029155731, -1.0359262228012085, 0.13638454675674438, 0.998399019241333, 0.050757914781570435, 1.6028223037719727, 0.05089489370584488]
+New End_effector pose: (0.7165785431861877, -0.16149167716503143, 0.922019362449646)
+New End_effector pose: Vector(-1.88562, 1.07552, -0.274403)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([-10.850421,  15.357452], dtype=float32))])}
+New pose: [-0.38662007451057434, -1.0347931385040283, 0.13828620314598083, 1.0002570152282715, 0.03503623232245445, 1.6046757698059082, 0.062484756112098694]
+New End_effector pose: (0.7138954997062683, -0.16709719598293304, 0.9203827977180481)
+New End_effector pose: Vector(-1.80278, 1.07386, -0.209093)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.34352186], dtype=float32))])}
+New pose: [-0.38717809319496155, -1.0342531204223633, 0.13745422661304474, 0.999477744102478, 0.03482542559504509, 1.6065027713775635, 0.06140776351094246]
+New End_effector pose: (0.7133824229240417, -0.1677657663822174, 0.9203270673751831)
+New End_effector pose: Vector(-1.80229, 1.0738, -0.209768)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.5704877 , 0.98905414, 0.7916684 , 0.5382889 , 0.92467   ,
+       0.1846135 , 0.30523077], dtype=float32)), ('grip_action', array([0.15207365], dtype=float32))])}
+New pose: [-0.3797370195388794, -1.0188286304473877, 0.15075421333312988, 1.0084267854690552, 0.043532077223062515, 1.6047337055206299, 0.0703519731760025]
+New End_effector pose: (0.7146902680397034, -0.15459837019443512, 0.9106488823890686)
+New End_effector pose: Vector(-1.80356, 1.06428, -0.196718)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.710176  , 0.13338795, 0.3461897 , 0.17029563, 0.89829946,
+       0.6616004 , 0.41153234], dtype=float32)), ('grip_action', array([-0.8642988], dtype=float32))])}
+New pose: [-0.3645220994949341, -1.01859450340271, 0.15356755256652832, 1.0093350410461426, 0.07201359421014786, 1.6234530210494995, 0.06662905961275101]
+New End_effector pose: (0.7133844494819641, -0.1346173882484436, 0.9117186069488525)
+New End_effector pose: Vector(-1.80206, 1.06554, -0.17715)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([-19.212616,  -9.715582], dtype=float32))])}
+New pose: [-0.36263740062713623, -1.0232079029083252, 0.15093369781970978, 1.0079412460327148, 0.08584591746330261, 1.614823818206787, 0.05342568829655647]
+New End_effector pose: (0.7173280119895935, -0.1312464475631714, 0.914863109588623)
+New End_effector pose: Vector(-1.68944, 1.06868, -0.238236)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.03719667, 0.9148454 , 0.37942865, 0.64425737, 0.7128484 ,
+       0.7084548 , 0.6621515 ], dtype=float32)), ('grip_action', array([-0.5769482], dtype=float32))])}
+New pose: [-0.3709030747413635, -1.0058667659759521, 0.15827396512031555, 1.0192623138427734, 0.06956180930137634, 1.6227201223373413, 0.08112391829490662]
+New End_effector pose: (0.710058867931366, -0.13628260791301727, 0.9026120901107788)
+New End_effector pose: Vector(-1.68217, 1.05645, -0.242492)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.88205004, 0.962929  , 0.76396525, 0.20052221, 0.19035237,
+       0.49032956, 0.7894633 ], dtype=float32)), ('grip_action', array([0.46929902], dtype=float32))])}
+New pose: [-0.36146286129951477, -0.9907084703445435, 0.16951633989810944, 1.0199490785598755, 0.05003441497683525, 1.6378308534622192, 0.10459834337234497]
+New End_effector pose: (0.7060452699661255, -0.1307557076215744, 0.8951132893562317)
+New End_effector pose: Vector(-1.67899, 1.04906, -0.236546)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([ 2.5683157, -8.11963  ], dtype=float32))])}
+New pose: [-0.35267531871795654, -0.9986487627029419, 0.16575345396995544, 1.018340826034546, 0.0899105817079544, 1.6307874917984009, 0.07509969919919968]
+New End_effector pose: (0.7120957970619202, -0.11602598428726196, 0.9009745717048645)
+New End_effector pose: Vector(-1.76465, 1.05499, -0.291559)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.13029088], dtype=float32))])}
+New pose: [-0.3545073866844177, -0.9993613958358765, 0.16554474830627441, 1.0193806886672974, 0.0896504819393158, 1.6273815631866455, 0.07639745622873306]
+New End_effector pose: (0.7125653028488159, -0.11738879978656769, 0.9009075164794922)
+New End_effector pose: Vector(-1.76484, 1.05491, -0.292962)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.06778277], dtype=float32))])}
+New pose: [-0.3598719835281372, -0.9960228204727173, 0.1665935218334198, 1.0189931392669678, 0.06567110121250153, 1.6322963237762451, 0.09129317104816437]
+New End_effector pose: (0.7090467214584351, -0.12687765061855316, 0.8983674645423889)
+New End_effector pose: Vector(-1.75982, 1.05232, -0.301416)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([11.743517, 15.658213], dtype=float32))])}
+New pose: [-0.36084574460983276, -0.9971967339515686, 0.16594934463500977, 1.018933892250061, 0.06498333811759949, 1.6303538084030151, 0.09076371788978577]
+New End_effector pose: (0.7094355225563049, -0.12804920971393585, 0.8988400101661682)
+New End_effector pose: Vector(-1.88039, 1.05278, -0.260758)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.5336689], dtype=float32))])}
+New pose: [-0.35749170184135437, -0.9976648092269897, 0.16612935066223145, 1.0190671682357788, 0.07577861100435257, 1.6296943426132202, 0.084743432700634]
+New End_effector pose: (0.7107396125793457, -0.12285976856946945, 0.8995431065559387)
+New End_effector pose: Vector(-1.88208, 1.05352, -0.255816)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([19.2438   , -6.7008085], dtype=float32))])}
+New pose: [-0.35611021518707275, -0.9974195957183838, 0.1661648005247116, 1.0190199613571167, 0.07986553013324738, 1.6310913562774658, 0.08241235464811325]
+New End_effector pose: (0.7107716798782349, -0.12074776738882065, 0.8996803164482117)
+New End_effector pose: Vector(-1.96053, 1.05367, -0.32235)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([-7.15341  , -1.7318084], dtype=float32))])}
+New pose: [-0.35786572098731995, -0.9974233508110046, 0.16609780490398407, 1.0190174579620361, 0.07460345327854156, 1.6304749250411987, 0.08546183258295059]
+New End_effector pose: (0.7103949785232544, -0.12339333444833755, 0.8993992209434509)
+New End_effector pose: Vector(-1.83381, 1.05337, -0.364373)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.7931257], dtype=float32))])}
+New pose: [-0.3590673804283142, -0.9972703456878662, 0.16613367199897766, 1.0190092325210571, 0.07043907046318054, 1.6302257776260376, 0.08788829296827316]
+New End_effector pose: (0.7100507616996765, -0.1253252923488617, 0.8991195559501648)
+New End_effector pose: Vector(-1.83296, 1.05308, -0.366087)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([ -7.780073, -18.33141 ], dtype=float32))])}
+New pose: [-0.3583332300186157, -0.997299313545227, 0.16612567007541656, 1.0190106630325317, 0.07278528064489365, 1.6305553913116455, 0.08649296313524246]
+New End_effector pose: (0.7101972103118896, -0.12418632209300995, 0.8992548584938049)
+New End_effector pose: Vector(-1.70413, 1.05322, -0.391802)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([ -3.7489407, -19.581778 ], dtype=float32))])}
+New pose: [-0.35743117332458496, -0.9974468946456909, 0.1661224067211151, 1.0190216302871704, 0.07583530247211456, 1.6305029392242432, 0.08472514152526855]
+New End_effector pose: (0.7105211019515991, -0.12276335060596466, 0.899472713470459)
+New End_effector pose: Vector(-1.57375, 1.05345, -0.404422)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([-6.310554, -9.666212], dtype=float32))])}
+New pose: [-0.35763952136039734, -0.9974207282066345, 0.1661265343427658, 1.0190191268920898, 0.07515686750411987, 1.6304750442504883, 0.08513636887073517]
+New End_effector pose: (0.7104604244232178, -0.12308552116155624, 0.8994265794754028)
+New End_effector pose: Vector(-1.44162, 1.0534, -0.405275)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.8957301 , 0.7499973 , 0.22534509, 0.25863466, 0.05534202,
+       0.6851995 , 0.75097996], dtype=float32)), ('grip_action', array([0.10234622], dtype=float32))])}
+New pose: [-0.34668296575546265, -0.9848469495773315, 0.1699163168668747, 1.023231029510498, 0.06334979087114334, 1.6399668455123901, 0.10508987307548523]
+New End_effector pose: (0.7070583701133728, -0.1175406277179718, 0.8920488357543945)
+New End_effector pose: Vector(-1.44214, 1.04612, -0.398839)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([9.8507742e-05, 1.1138698e-01, 9.2590880e-01, 5.8627069e-01,
+       9.1651842e-02, 5.4033226e-01, 4.3675447e-01], dtype=float32)), ('grip_action', array([-0.7600119], dtype=float32))])}
+New pose: [-0.3443719744682312, -0.985276460647583, 0.1844191700220108, 1.0321310758590698, 0.0829613208770752, 1.6512264013290405, 0.098770871758461]
+New End_effector pose: (0.703342080116272, -0.10314902663230896, 0.8918464183807373)
+New End_effector pose: Vector(-1.44691, 1.04604, -0.385136)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.60821867], dtype=float32))])}
+New pose: [-0.3437540829181671, -0.988271951675415, 0.18044783174991608, 1.0295193195343018, 0.08923035115003586, 1.6446733474731445, 0.09199964255094528]
+New End_effector pose: (0.7063354253768921, -0.10314396768808365, 0.8939058184623718)
+New End_effector pose: Vector(-1.44928, 1.04808, -0.386743)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.09063499, 0.9065065 , 0.08793608, 0.4491685 , 0.37612677,
+       0.7274857 , 0.27940524], dtype=float32)), ('grip_action', array([-0.885241], dtype=float32))])}
+New pose: [-0.34639865159988403, -0.9717273712158203, 0.18107004463672638, 1.0364521741867065, 0.07686121761798859, 1.654354453086853, 0.10837395489215851]
+New End_effector pose: (0.7000616788864136, -0.10682304203510284, 0.8839209079742432)
+New End_effector pose: Vector(-1.44239, 1.03809, -0.386414)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([-7.403411 ,  3.9305403], dtype=float32))])}
+New pose: [-0.3476172983646393, -0.9732729196548462, 0.18223987519741058, 1.03564453125, 0.07372898608446121, 1.6603325605392456, 0.10862082242965698]
+New End_effector pose: (0.6983208060264587, -0.10774900764226913, 0.8850136399269104)
+New End_effector pose: Vector(-1.39847, 1.03918, -0.284347)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.34179354, 0.42831254, 0.9859527 , 0.6562138 , 0.88929224,
+       0.9435644 , 0.35650453], dtype=float32)), ('grip_action', array([0.5091949], dtype=float32))])}
+New pose: [-0.34291985630989075, -0.9701348543167114, 0.1977362483739853, 1.0454379320144653, 0.08621551096439362, 1.664882779121399, 0.11454783380031586]
+New End_effector pose: (0.6959155797958374, -0.09407545626163483, 0.882682204246521)
+New End_effector pose: Vector(-1.40273, 1.03696, -0.271383)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([ 13.164426, -12.165924], dtype=float32))])}
+New pose: [-0.3361183702945709, -0.9691103100776672, 0.19421949982643127, 1.043976068496704, 0.10805678367614746, 1.670094609260559, 0.0995207205414772]
+New End_effector pose: (0.6964248418807983, -0.08505801856517792, 0.884012758731842)
+New End_effector pose: Vector(-1.45634, 1.03834, -0.358127)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.13185868], dtype=float32))])}
+New pose: [-0.3400057554244995, -0.9711834192276001, 0.19284257292747498, 1.0426506996154785, 0.09684447944164276, 1.6647523641586304, 0.10451890528202057]
+New End_effector pose: (0.6974577307701111, -0.09149347245693207, 0.8842640519142151)
+New End_effector pose: Vector(-1.45368, 1.03855, -0.363909)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([14.536194  , -0.64119166], dtype=float32))])}
+New pose: [-0.344410240650177, -0.9694740176200867, 0.1945982724428177, 1.04374098777771, 0.08178068697452545, 1.665725827217102, 0.11505185812711716]
+New End_effector pose: (0.6956256628036499, -0.0975852757692337, 0.8824348449707031)
+New End_effector pose: Vector(-1.50406, 1.03669, -0.450934)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.64429027], dtype=float32))])}
+New pose: [-0.34262752532958984, -0.9695130586624146, 0.19375698268413544, 1.0432804822921753, 0.087245412170887, 1.66721773147583, 0.11104655265808105]
+New End_effector pose: (0.6957586407661438, -0.09526441246271133, 0.8829193115234375)
+New End_effector pose: Vector(-1.50553, 1.03719, -0.449214)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.38532162], dtype=float32))])}
+New pose: [-0.3400630056858063, -0.9704004526138306, 0.1938972771167755, 1.0433820486068726, 0.0960015133023262, 1.6658936738967896, 0.10592149198055267]
+New End_effector pose: (0.6968722343444824, -0.09123003482818604, 0.8837723135948181)
+New End_effector pose: Vector(-1.50876, 1.03806, -0.446726)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([ -5.7370253, -16.504622 ], dtype=float32))])}
+New pose: [-0.3404102623462677, -0.9701279401779175, 0.19400624930858612, 1.0434647798538208, 0.09486440569162369, 1.6663891077041626, 0.1067875400185585]
+New End_effector pose: (0.6966037154197693, -0.09168708324432373, 0.8835853934288025)
+New End_effector pose: Vector(-1.38124, 1.03787, -0.426956)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([-12.102792,  18.024942], dtype=float32))])}
+New pose: [-0.34201735258102417, -0.9698525071144104, 0.19390025734901428, 1.0433545112609863, 0.08956652879714966, 1.6664533615112305, 0.10982934385538101]
+New End_effector pose: (0.6961652040481567, -0.09420904517173767, 0.8831645250320435)
+New End_effector pose: Vector(-1.35332, 1.03744, -0.32038)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.39864326, 0.5143865 , 0.00687085, 0.61054236, 0.7000121 ,
+       0.7649477 , 0.611432  ], dtype=float32)), ('grip_action', array([0.1823465], dtype=float32))])}
+New pose: [-0.33713865280151367, -0.9614247679710388, 0.19407717883586884, 1.0534969568252563, 0.09560031443834305, 1.6774824857711792, 0.12327226251363754]
+New End_effector pose: (0.6902831196784973, -0.08812452852725983, 0.8775938749313354)
+New End_effector pose: Vector(-1.3525, 1.03192, -0.312193)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.37158242, 0.5402035 , 0.7326428 , 0.87104046, 0.45631257,
+       0.579695  , 0.48893178], dtype=float32)), ('grip_action', array([0.87059754], dtype=float32))])}
+New pose: [-0.3303520083427429, -0.9538373351097107, 0.20624974370002747, 1.065638780593872, 0.107077956199646, 1.6870570182800293, 0.125227153301239]
+New End_effector pose: (0.6850213408470154, -0.0746615082025528, 0.87317955493927)
+New End_effector pose: Vector(-1.35653, 1.0276, -0.298599)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([-12.2902975,   6.8808017], dtype=float32))])}
+New pose: [-0.32773375511169434, -0.9576936960220337, 0.20331880450248718, 1.0615570545196533, 0.11928579211235046, 1.6838407516479492, 0.11346254497766495]
+New End_effector pose: (0.6881030797958374, -0.07127074152231216, 0.8763732314109802)
+New End_effector pose: Vector(-1.32197, 1.03081, -0.192181)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.4494244 , 0.28239632, 0.2528288 , 0.6229235 , 0.97456294,
+       0.33765355, 0.8839976 ], dtype=float32)), ('grip_action', array([0.50075424], dtype=float32))])}
+New pose: [-0.3268803060054779, -0.9528701901435852, 0.20655366778373718, 1.071630597114563, 0.11508473008871078, 1.6853440999984741, 0.14130264520645142]
+New End_effector pose: (0.6842387318611145, -0.06981228291988373, 0.8717057108879089)
+New End_effector pose: Vector(-1.31962, 1.02616, -0.188945)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([-0.45179406, -7.3419995 ], dtype=float32))])}
+New pose: [-0.32552850246429443, -0.952147364616394, 0.20691880583763123, 1.0703392028808594, 0.1189376562833786, 1.6903213262557983, 0.13372965157032013]
+New End_effector pose: (0.6834542155265808, -0.0677139163017273, 0.8723406791687012)
+New End_effector pose: Vector(-1.24111, 1.0268, -0.208457)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.6615741 , 0.3458895 , 0.55444795, 0.21339804, 0.9727513 ,
+       0.15238942, 0.8576658 ], dtype=float32)), ('grip_action', array([0.33105394], dtype=float32))])}
+New pose: [-0.31813687086105347, -0.9480931758880615, 0.21514594554901123, 1.0722177028656006, 0.12566664814949036, 1.6872506141662598, 0.1510222852230072]
+New End_effector pose: (0.684631884098053, -0.058287449181079865, 0.8709474802017212)
+New End_effector pose: Vector(-1.24772, 1.02549, -0.201731)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.45558894], dtype=float32))])}
+New pose: [-0.31361836194992065, -0.9490907192230225, 0.21355439722537994, 1.0730265378952026, 0.14318522810935974, 1.690591812133789, 0.1378282606601715]
+New End_effector pose: (0.6844293475151062, -0.051141031086444855, 0.8726497292518616)
+New End_effector pose: Vector(-1.25176, 1.02722, -0.196076)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.04945558, 0.268143  , 0.39565617, 0.173314  , 0.1878571 ,
+       0.7614805 , 0.68311983], dtype=float32)), ('grip_action', array([0.00765948], dtype=float32))])}
+New pose: [-0.3172082304954529, -0.9453608393669128, 0.21921953558921814, 1.0749791860580444, 0.13475486636161804, 1.7007863521575928, 0.15294741094112396]
+New End_effector pose: (0.6801999807357788, -0.05293671041727066, 0.8710249662399292)
+New End_effector pose: Vector(-1.24747, 1.02558, -0.195008)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([14.657599 ,  7.7681913], dtype=float32))])}
+New pose: [-0.3186408281326294, -0.9447798132896423, 0.21865873038768768, 1.0745744705200195, 0.1272183209657669, 1.699369192123413, 0.1571873128414154]
+New End_effector pose: (0.6802963018417358, -0.05619557201862335, 0.8701470494270325)
+New End_effector pose: Vector(-1.36466, 1.02469, -0.212344)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.59737235, 0.36370054, 0.40843508, 0.15939827, 0.23151669,
+       0.14916745, 0.41647285], dtype=float32)), ('grip_action', array([-0.5251397], dtype=float32))])}
+New pose: [-0.3103470504283905, -0.9396662712097168, 0.22449423372745514, 1.0768343210220337, 0.1269400715827942, 1.6989741325378418, 0.16429494321346283]
+New End_effector pose: (0.6800304055213928, -0.04915190488100052, 0.8677617907524109)
+New End_effector pose: Vector(-1.36817, 1.02237, -0.206242)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.24041304], dtype=float32))])}
+New pose: [-0.3058442175388336, -0.9412487745285034, 0.22367048263549805, 1.0768325328826904, 0.14769762754440308, 1.7022956609725952, 0.15118002891540527]
+New End_effector pose: (0.6801685094833374, -0.04090041667222977, 0.8702908158302307)
+New End_effector pose: Vector(-1.37245, 1.02493, -0.199472)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([-5.9330354, 13.214939 ], dtype=float32))])}
+New pose: [-0.30889979004859924, -0.9421378374099731, 0.22280824184417725, 1.076421856880188, 0.1407346874475479, 1.699427843093872, 0.154218390583992]
+New End_effector pose: (0.6807466149330139, -0.04505474865436554, 0.8699244260787964)
+New End_effector pose: Vector(-1.31895, 1.02454, -0.101403)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([19.68341  ,  2.3668048], dtype=float32))])}
+New pose: [-0.31193605065345764, -0.9404127597808838, 0.22357740998268127, 1.0764925479888916, 0.12755011022090912, 1.700020670890808, 0.16313999891281128]
+New End_effector pose: (0.6797921657562256, -0.05022955685853958, 0.8682245016098022)
+New End_effector pose: Vector(-1.43497, 1.02282, -0.096161)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.23979339, 0.13864376, 0.38266936, 0.50154763, 0.21842614,
+       0.06285443, 0.24516408], dtype=float32)), ('grip_action', array([-0.81729335], dtype=float32))])}
+New pose: [-0.30826810002326965, -0.9384055137634277, 0.2296430617570877, 1.0847387313842773, 0.13138672709465027, 1.7011630535125732, 0.16665291786193848]
+New End_effector pose: (0.6771148443222046, -0.04408014565706253, 0.8662279844284058)
+New End_effector pose: Vector(-1.43464, 1.02086, -0.0895602)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.04165487, 0.05623871, 0.861321  , 0.42856815, 0.18540104,
+       0.14895158, 0.20362274], dtype=float32)), ('grip_action', array([0.37495935], dtype=float32))])}
+New pose: [-0.30469265580177307, -0.9385554790496826, 0.2425076961517334, 1.0900930166244507, 0.14568305015563965, 1.7039893865585327, 0.16179713606834412]
+New End_effector pose: (0.6753503680229187, -0.032618749886751175, 0.8674265146255493)
+New End_effector pose: Vector(-1.43687, 1.02212, -0.0784229)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([ 4.650761, -5.543974], dtype=float32))])}
+New pose: [-0.30328190326690674, -0.9395548701286316, 0.2386544644832611, 1.0878692865371704, 0.15085455775260925, 1.703114628791809, 0.1569996029138565]
+New End_effector pose: (0.6765972971916199, -0.031998515129089355, 0.8684399724006653)
+New End_effector pose: Vector(-1.50515, 1.02313, -0.165342)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([12.840792  , -0.52338195], dtype=float32))])}
+New pose: [-0.3072873651981354, -0.9385901689529419, 0.23813988268375397, 1.0879446268081665, 0.1372823715209961, 1.7022037506103516, 0.16556157171726227]
+New End_effector pose: (0.676140546798706, -0.038329072296619415, 0.8667560815811157)
+New End_effector pose: Vector(-1.57572, 1.02142, -0.24039)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.01275622], dtype=float32))])}
+New pose: [-0.3084735870361328, -0.9381367564201355, 0.23940621316432953, 1.0882375240325928, 0.13349539041519165, 1.7030984163284302, 0.16802529990673065]
+New End_effector pose: (0.6755836009979248, -0.03955511748790741, 0.8663531541824341)
+New End_effector pose: Vector(-1.57468, 1.02101, -0.241177)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([10.307137 , 13.1181135], dtype=float32))])}
+New pose: [-0.30597132444381714, -0.9388229250907898, 0.23868678510189056, 1.0880627632141113, 0.14154285192489624, 1.702846646308899, 0.16286587715148926]
+New End_effector pose: (0.6761394143104553, -0.036143623292446136, 0.8672740459442139)
+New End_effector pose: Vector(-1.69469, 1.02195, -0.235093)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.22452953, 0.9125056 , 0.92710286, 0.3242418 , 0.5420577 ,
+       0.88692427, 0.02526683], dtype=float32)), ('grip_action', array([-0.770301], dtype=float32))])}
+New pose: [-0.3034512996673584, -0.9236162900924683, 0.2543192207813263, 1.0934927463531494, 0.1469518393278122, 1.7161976099014282, 0.1655794233083725]
+New End_effector pose: (0.6701487898826599, -0.026518695056438446, 0.862472414970398)
+New End_effector pose: Vector(-1.69317, 1.01716, -0.224148)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([-18.031874,  13.896422], dtype=float32))])}
+New pose: [-0.30101820826530457, -0.9267779588699341, 0.25072041153907776, 1.0924253463745117, 0.1544523537158966, 1.7169904708862305, 0.15971624851226807]
+New End_effector pose: (0.6707322597503662, -0.024495698511600494, 0.8644657135009766)
+New End_effector pose: Vector(-1.62594, 1.01917, -0.129676)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.6678564], dtype=float32))])}
+New pose: [-0.30373871326446533, -0.9290111064910889, 0.24936039745807648, 1.0918216705322266, 0.14743289351463318, 1.7109532356262207, 0.16341936588287354]
+New End_effector pose: (0.6724678874015808, -0.02865203656256199, 0.8642851710319519)
+New End_effector pose: Vector(-1.62632, 1.01898, -0.134047)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.8749375], dtype=float32))])}
+New pose: [-0.30509310960769653, -0.9261958003044128, 0.2511249780654907, 1.0923246145248413, 0.141871377825737, 1.71453857421875, 0.1674869954586029]
+New End_effector pose: (0.6708972454071045, -0.03021598793566227, 0.8629595637321472)
+New End_effector pose: Vector(-1.62444, 1.01764, -0.135048)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.015521  , 0.98713815, 0.41022405, 0.34514558, 0.93456405,
+       0.2877297 , 0.3742229 ], dtype=float32)), ('grip_action', array([-0.01822067], dtype=float32))])}
+New pose: [-0.30401939153671265, -0.9109176993370056, 0.2571156322956085, 1.0977957248687744, 0.16027705371379852, 1.718105435371399, 0.17150843143463135]
+New End_effector pose: (0.6680342555046082, -0.021485010161995888, 0.8578733801841736)
+New End_effector pose: Vector(-1.62443, 1.01254, -0.12611)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([ 18.703516, -11.434438], dtype=float32))])}
+New pose: [-0.30173835158348083, -0.914547860622406, 0.2556407153606415, 1.0966660976409912, 0.1636303812265396, 1.7194111347198486, 0.1659993827342987]
+New End_effector pose: (0.6683771014213562, -0.019953785464167595, 0.859924852848053)
+New End_effector pose: Vector(-1.69757, 1.01461, -0.208225)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.4751245 , 0.2957387 , 0.24311069, 0.9717831 , 0.4064313 ,
+       0.48883563, 0.9592451 ], dtype=float32)), ('grip_action', array([-0.64956456], dtype=float32))])}
+New pose: [-0.29707401990890503, -0.9114606380462646, 0.25923028588294983, 1.1122009754180908, 0.15998895466327667, 1.7228261232376099, 0.18705813586711884]
+New End_effector pose: (0.6619527339935303, -0.01601630076766014, 0.8555865287780762)
+New End_effector pose: Vector(-1.69345, 1.01029, -0.202118)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.4213408 , 0.44060546, 0.22429553, 0.52023154, 0.62737066,
+       0.18915215, 0.62346005], dtype=float32)), ('grip_action', array([-0.48726138], dtype=float32))])}
+New pose: [-0.290322870016098, -0.9026409387588501, 0.26270341873168945, 1.1177241802215576, 0.17439880967140198, 1.7283488512039185, 0.19195117056369781]
+New End_effector pose: (0.6585677266120911, -0.006501886993646622, 0.8531094789505005)
+New End_effector pose: Vector(-1.69416, 1.00783, -0.192242)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.8260034], dtype=float32))])}
+New pose: [-0.2898137867450714, -0.9067410826683044, 0.26111558079719543, 1.1143077611923218, 0.18004558980464935, 1.7260764837265015, 0.18201375007629395]
+New End_effector pose: (0.6608074903488159, -0.005489299073815346, 0.855654239654541)
+New End_effector pose: Vector(-1.69649, 1.01038, -0.19221)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.12248537], dtype=float32))])}
+New pose: [-0.2929687798023224, -0.9064292907714844, 0.2613275349140167, 1.1151894330978394, 0.16971886157989502, 1.7244244813919067, 0.18945038318634033]
+New End_effector pose: (0.6605920791625977, -0.009979423135519028, 0.8541843891143799)
+New End_effector pose: Vector(-1.69459, 1.0089, -0.196151)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.290746  , 0.5040942 , 0.92463005, 0.9292731 , 0.4067771 ,
+       0.69920236, 0.7468544 ], dtype=float32)), ('grip_action', array([0.28857365], dtype=float32))])}
+New pose: [-0.29077738523483276, -0.8960758447647095, 0.27694275975227356, 1.130553960800171, 0.16690295934677124, 1.7369321584701538, 0.2087220996618271]
+New End_effector pose: (0.6509379148483276, -0.0028086844831705093, 0.8493937253952026)
+New End_effector pose: Vector(-1.68886, 1.0041, -0.185941)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([ 7.785445, 11.162743], dtype=float32))])}
+New pose: [-0.2853562831878662, -0.899707555770874, 0.2731277048587799, 1.1270662546157837, 0.1862705945968628, 1.7367266416549683, 0.19186533987522125]
+New End_effector pose: (0.653055727481842, 0.0038839206099510193, 0.8530920743942261)
+New End_effector pose: Vector(-1.8058, 1.00782, -0.166291)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.8964622 , 0.20532477, 0.34005788, 0.5994541 , 0.11769144,
+       0.21091199, 0.9867302 ], dtype=float32)), ('grip_action', array([-0.08659189], dtype=float32))])}
+New pose: [-0.27546462416648865, -0.8969587087631226, 0.2776014804840088, 1.1355804204940796, 0.1742250621318817, 1.734869360923767, 0.21611429750919342]
+New End_effector pose: (0.6500034332275391, 0.00791703537106514, 0.8493102788925171)
+New End_effector pose: Vector(-1.80427, 1.00411, -0.161403)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([-14.86339 ,  12.854985], dtype=float32))])}
+New pose: [-0.274625688791275, -0.8965789079666138, 0.277984619140625, 1.1352330446243286, 0.18527156114578247, 1.7393643856048584, 0.2067529559135437]
+New End_effector pose: (0.6491127610206604, 0.011539999395608902, 0.8508956432342529)
+New End_effector pose: Vector(-1.72309, 1.00568, -0.0733478)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.23307139], dtype=float32))])}
+New pose: [-0.2780354917049408, -0.897618293762207, 0.2766495943069458, 1.1334201097488403, 0.17962180078029633, 1.7361066341400146, 0.2079346477985382]
+New End_effector pose: (0.6506253480911255, 0.007586359977722168, 0.8505893349647522)
+New End_effector pose: Vector(-1.72373, 1.00537, -0.0774495)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([-0.592431, 19.539722], dtype=float32))])}
+New pose: [-0.27871790528297424, -0.896372377872467, 0.27744320034980774, 1.134495496749878, 0.1718970388174057, 1.7366968393325806, 0.21490401029586792]
+New End_effector pose: (0.6497864127159119, 0.0054068900644779205, 0.8492480516433716)
+New End_effector pose: Vector(-1.67366, 1.00402, -0.0115139)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([-9.196019, 18.980335], dtype=float32))])}
+New pose: [-0.27735665440559387, -0.8968437910079956, 0.27723315358161926, 1.1342198848724365, 0.17843948304653168, 1.7375320196151733, 0.209905743598938]
+New End_effector pose: (0.6498501896858215, 0.007864708080887794, 0.8502202033996582)
+New End_effector pose: Vector(-1.57776, 1.005, 0.0575216)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.08862699], dtype=float32))])}
+New pose: [-0.27660754323005676, -0.8972947001457214, 0.27718275785446167, 1.1342614889144897, 0.1808251142501831, 1.736758828163147, 0.2084839642047882]
+New End_effector pose: (0.6501423716545105, 0.008919501677155495, 0.8505419492721558)
+New End_effector pose: Vector(-1.57804, 1.00533, 0.058551)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.03928098, 0.7856468 , 0.31021336, 0.21336909, 0.29235485,
+       0.16380134, 0.6943364 ], dtype=float32)), ('grip_action', array([-0.4730309], dtype=float32))])}
+New pose: [-0.27696937322616577, -0.8838847875595093, 0.2824266254901886, 1.137789249420166, 0.1821477711200714, 1.7392100095748901, 0.2224479764699936]
+New End_effector pose: (0.6473694443702698, 0.011371195316314697, 0.8455571532249451)
+New End_effector pose: Vector(-1.57546, 1.00031, 0.061008)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.9864336 , 0.43135276, 0.9441307 , 0.15949069, 0.3121429 ,
+       0.87771785, 0.5677252 ], dtype=float32)), ('grip_action', array([0.2857407], dtype=float32))])}
+New pose: [-0.2643875181674957, -0.878220796585083, 0.29693660140037537, 1.1392186880111694, 0.17376339435577393, 1.7544119358062744, 0.23695801198482513]
+New End_effector pose: (0.641475260257721, 0.020680662244558334, 0.8454625606536865)
+New End_effector pose: Vector(-1.56984, 1.00027, 0.0703773)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.8586078], dtype=float32))])}
+New pose: [-0.25874602794647217, -0.8841062784194946, 0.2927554249763489, 1.1391912698745728, 0.20339655876159668, 1.7505416870117188, 0.21395601332187653]
+New End_effector pose: (0.6435577869415283, 0.030415399000048637, 0.8500341773033142)
+New End_effector pose: Vector(-1.57182, 1.00487, 0.0797879)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.75844353], dtype=float32))])}
+New pose: [-0.26432254910469055, -0.8823866844177246, 0.29204851388931274, 1.139051914215088, 0.19048693776130676, 1.7483278512954712, 0.2229185402393341]
+New End_effector pose: (0.6440082788467407, 0.023720744997262955, 0.8476502895355225)
+New End_effector pose: Vector(-1.57225, 1.00246, 0.0732411)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([-15.697105,  -5.03161 ], dtype=float32))])}
+New pose: [-0.2675638198852539, -0.8803113698959351, 0.2935216426849365, 1.1386466026306152, 0.17356254160404205, 1.7507328987121582, 0.23405955731868744]
+New End_effector pose: (0.6429826021194458, 0.017773550003767014, 0.8455676436424255)
+New End_effector pose: Vector(-1.46899, 1.00036, 0.0112884)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([-19.738586,  -6.143487], dtype=float32))])}
+New pose: [-0.2650541365146637, -0.8817822337150574, 0.2927112281322479, 1.138861894607544, 0.18440067768096924, 1.7498314380645752, 0.22656002640724182]
+New End_effector pose: (0.6434717774391174, 0.021840471774339676, 0.8470445871353149)
+New End_effector pose: Vector(-1.36284, 1.00185, -0.0306308)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.8798803 , 0.61424655, 0.80561197, 0.2223194 , 0.69707876,
+       0.73150253, 0.26098964], dtype=float32)), ('grip_action', array([0.9739705], dtype=float32))])}
+New pose: [-0.25175806879997253, -0.8710917234420776, 0.30637574195861816, 1.1423662900924683, 0.19159632921218872, 1.7610961198806763, 0.23400305211544037]
+New End_effector pose: (0.6377582550048828, 0.0356048047542572, 0.8458980917930603)
+New End_effector pose: Vector(-1.36025, 1.00074, -0.0161483)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.10496522], dtype=float32))])}
+New pose: [-0.24804992973804474, -0.8749831318855286, 0.30322954058647156, 1.142235279083252, 0.2109489142894745, 1.7611678838729858, 0.21906910836696625]
+New End_effector pose: (0.6383567452430725, 0.04171549156308174, 0.8492556214332581)
+New End_effector pose: Vector(-1.36196, 1.0041, -0.0104778)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([-19.36085  ,   7.0053306], dtype=float32))])}
+New pose: [-0.2544456720352173, -0.875260055065155, 0.3020116090774536, 1.1414839029312134, 0.19482290744781494, 1.7570704221725464, 0.22834986448287964]
+New End_effector pose: (0.6397573351860046, 0.03359965607523918, 0.847036600112915)
+New End_effector pose: Vector(-1.26998, 1.00187, 0.0568563)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([ 3.470985, -6.022625], dtype=float32))])}
+New pose: [-0.2564283609390259, -0.8724525570869446, 0.3035675585269928, 1.1415069103240967, 0.1831820011138916, 1.7594929933547974, 0.23682428896427155]
+New End_effector pose: (0.6386874914169312, 0.029852764680981636, 0.845150351524353)
+New End_effector pose: Vector(-1.36148, 0.999973, -0.0119852)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([10.741816, 14.288984], dtype=float32))])}
+New pose: [-0.2534053921699524, -0.8741829991340637, 0.30282139778137207, 1.1416876316070557, 0.1949712485074997, 1.7593375444412231, 0.22872212529182434]
+New End_effector pose: (0.638928234577179, 0.03442306071519852, 0.8469708561897278)
+New End_effector pose: Vector(-1.4668, 1.0018, 0.027999)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([15.255686,  1.397527], dtype=float32))])}
+New pose: [-0.25205060839653015, -0.874697208404541, 0.30294618010520935, 1.1418293714523315, 0.1995205581188202, 1.7587655782699585, 0.2260303646326065]
+New End_effector pose: (0.6391018629074097, 0.03644669055938721, 0.8475921750068665)
+New End_effector pose: Vector(-1.5671, 1.00243, 0.0758754)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([  7.278439, -11.383583], dtype=float32))])}
+New pose: [-0.253637433052063, -0.8739339709281921, 0.30304259061813354, 1.1416927576065063, 0.19395847618579865, 1.759212851524353, 0.22968676686286926]
+New End_effector pose: (0.6389262676239014, 0.034106772392988205, 0.8467711210250854)
+New End_effector pose: Vector(-1.66627, 1.0016, 0.0178102)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.72972625, 0.57385147, 0.91006666, 0.46957248, 0.5511094 ,
+       0.44728887, 0.06859825], dtype=float32)), ('grip_action', array([0.4659536], dtype=float32))])}
+New pose: [-0.24537236988544464, -0.8634037375450134, 0.31812384724617004, 1.1490756273269653, 0.19067929685115814, 1.7656522989273071, 0.23853330314159393]
+New End_effector pose: (0.632920503616333, 0.042940229177474976, 0.8435636758804321)
+New End_effector pose: Vector(-1.66145, 0.998407, 0.0271996)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.35021943, 0.40906113, 0.99768704, 0.80137   , 0.04209086,
+       0.31757185, 0.32488796], dtype=float32)), ('grip_action', array([0.6313159], dtype=float32))])}
+New pose: [-0.23594215512275696, -0.8603357672691345, 0.33122262358665466, 1.161180019378662, 0.2096942812204361, 1.7707659006118774, 0.23070165514945984]
+New End_effector pose: (0.6262010931968689, 0.057683221995830536, 0.8447080850601196)
+New End_effector pose: Vector(-1.65644, 0.999549, 0.0423007)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.32658327], dtype=float32))])}
+New pose: [-0.23664557933807373, -0.8637537360191345, 0.32599619030952454, 1.15770423412323, 0.21478882431983948, 1.7686632871627808, 0.22561019659042358]
+New End_effector pose: (0.6285932064056396, 0.05688503757119179, 0.8462861776351929)
+New End_effector pose: Vector(-1.65864, 1.00113, 0.0412236)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([-5.2242336, 15.452502 ], dtype=float32))])}
+New pose: [-0.2423911690711975, -0.8612852096557617, 0.32632848620414734, 1.1567288637161255, 0.19469884037971497, 1.767484188079834, 0.2387988418340683]
+New End_effector pose: (0.6291327476501465, 0.048618193715810776, 0.8430570363998413)
+New End_effector pose: Vector(-1.55803, 0.997897, 0.0980679)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.5907406], dtype=float32))])}
+New pose: [-0.2420894056558609, -0.860717236995697, 0.32735535502433777, 1.157832384109497, 0.1942685842514038, 1.7690250873565674, 0.23910219967365265]
+New End_effector pose: (0.6282182335853577, 0.048984233289957047, 0.8429266214370728)
+New End_effector pose: Vector(-1.55715, 0.997761, 0.0984377)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([18.780163 , -3.7930608], dtype=float32))])}
+New pose: [-0.2389124035835266, -0.8623485565185547, 0.3265925347805023, 1.1575343608856201, 0.20572972297668457, 1.7685134410858154, 0.23157411813735962]
+New End_effector pose: (0.628585696220398, 0.053477004170417786, 0.8447651863098145)
+New End_effector pose: Vector(-1.65881, 0.99961, 0.0479144)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.27594626], dtype=float32))])}
+New pose: [-0.23908159136772156, -0.8621435761451721, 0.32685521245002747, 1.1576745510101318, 0.2050229161977768, 1.7684264183044434, 0.232233926653862]
+New End_effector pose: (0.6285338401794434, 0.05329795181751251, 0.8446007370948792)
+New End_effector pose: Vector(-1.65874, 0.999445, 0.0477488)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.8335725 , 0.7702753 , 0.97306216, 0.87436724, 0.507153  ,
+       0.24594888, 0.15245178], dtype=float32)), ('grip_action', array([-0.9179668], dtype=float32))])}
+New pose: [-0.22999761998653412, -0.8477151393890381, 0.3430781662464142, 1.171668529510498, 0.1979026049375534, 1.771681547164917, 0.2447737455368042]
+New End_effector pose: (0.6202822923660278, 0.0618857815861702, 0.8385132551193237)
+New End_effector pose: Vector(-1.65175, 0.993346, 0.0571928)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.2358555 , 0.86098236, 0.2497199 , 0.02951841, 0.49530113,
+       0.6603934 , 0.78183603], dtype=float32)), ('grip_action', array([0.58847994], dtype=float32))])}
+New pose: [-0.2221091091632843, -0.8383601903915405, 0.3434079587459564, 1.169533133506775, 0.22698412835597992, 1.7839699983596802, 0.24234402179718018]
+New End_effector pose: (0.6168612241744995, 0.07324196398258209, 0.8408933877944946)
+New End_effector pose: Vector(-1.64964, 0.995657, 0.0685344)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.5221841 , 0.28127095, 0.13377109, 0.02707488, 0.94369143,
+       0.8377745 , 0.22853534], dtype=float32)), ('grip_action', array([0.7447788], dtype=float32))])}
+New pose: [-0.21868745982646942, -0.8376740217208862, 0.34327203035354614, 1.1684085130691528, 0.2305774688720703, 1.7932333946228027, 0.24921990931034088]
+New End_effector pose: (0.6145649552345276, 0.07530272752046585, 0.8425889015197754)
+New End_effector pose: Vector(-1.64766, 0.997333, 0.070785)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([ -6.5312676, -10.546052 ], dtype=float32))])}
+New pose: [-0.21972893178462982, -0.8382647633552551, 0.3442128300666809, 1.169779658317566, 0.22605006396770477, 1.7898615598678589, 0.24807561933994293]
+New End_effector pose: (0.614980161190033, 0.07409941405057907, 0.8416372537612915)
+New End_effector pose: Vector(-1.54646, 0.996394, 0.0257064)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.6722271], dtype=float32))])}
+New pose: [-0.22101350128650665, -0.837651252746582, 0.34361717104911804, 1.1689910888671875, 0.22434894740581512, 1.7896722555160522, 0.24959926307201385]
+New End_effector pose: (0.6153858304023743, 0.07281341403722763, 0.8412278294563293)
+New End_effector pose: Vector(-1.5466, 0.995981, 0.0243842)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.40226746, 0.77815306, 0.22142524, 0.23294416, 0.59880793,
+       0.28315023, 0.4340253 ], dtype=float32)), ('grip_action', array([0.94272596], dtype=float32))])}
+New pose: [-0.21483175456523895, -0.8244409561157227, 0.34750133752822876, 1.1728157997131348, 0.23125146329402924, 1.7948070764541626, 0.2593989670276642]
+New End_effector pose: (0.6111426949501038, 0.07894482463598251, 0.8381544351577759)
+New End_effector pose: Vector(-1.54387, 0.992853, 0.0311748)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.70973593], dtype=float32))])}
+New pose: [-0.2131400853395462, -0.8283491134643555, 0.3466377258300781, 1.1724553108215332, 0.2393777072429657, 1.794805884361267, 0.25047674775123596]
+New End_effector pose: (0.6115329265594482, 0.0816020518541336, 0.8405173420906067)
+New End_effector pose: Vector(-1.54473, 0.995225, 0.033612)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.47939286, 0.46657446, 0.52233136, 0.08893966, 0.19034168,
+       0.56455046, 0.51606154], dtype=float32)), ('grip_action', array([0.6781667], dtype=float32))])}
+New pose: [-0.20898480713367462, -0.8211654424667358, 0.35497236251831055, 1.1731359958648682, 0.23217563331127167, 1.8016691207885742, 0.26486995816230774]
+New End_effector pose: (0.6080576181411743, 0.08406869322061539, 0.8390474915504456)
+New End_effector pose: Vector(-1.54199, 0.993744, 0.0367801)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.01412398, 0.8319587 , 0.9436829 , 0.8536055 , 0.02715834,
+       0.04578834, 0.41402912], dtype=float32)), ('grip_action', array([-0.98935735], dtype=float32))])}
+New pose: [-0.20795106887817383, -0.8077710866928101, 0.36906158924102783, 1.1876258850097656, 0.23829692602157593, 1.8021398782730103, 0.2669907808303833]
+New End_effector pose: (0.60078364610672, 0.0910244882106781, 0.8351722955703735)
+New End_effector pose: Vector(-1.5365, 0.989768, 0.0449427)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.87387455], dtype=float32))])}
+New pose: [-0.20841407775878906, -0.8126095533370972, 0.36443662643432617, 1.1841034889221191, 0.2394825518131256, 1.801479458808899, 0.2629932761192322]
+New End_effector pose: (0.6029394865036011, 0.0895875096321106, 0.8367383480072021)
+New End_effector pose: Vector(-1.53824, 0.991361, 0.0431021)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.63318235], dtype=float32))])}
+New pose: [-0.20974844694137573, -0.8125655651092529, 0.36415719985961914, 1.1828384399414062, 0.2332705706357956, 1.8006123304367065, 0.2677272856235504]
+New End_effector pose: (0.6037037372589111, 0.08725497871637344, 0.8358948230743408)
+New End_effector pose: Vector(-1.53851, 0.99053, 0.0407327)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.7708179], dtype=float32))])}
+New pose: [-0.20946910977363586, -0.8110440373420715, 0.3654523491859436, 1.184431791305542, 0.2344815880060196, 1.8015801906585693, 0.2672058939933777]
+New End_effector pose: (0.6026721000671387, 0.08809667825698853, 0.8356382250785828)
+New End_effector pose: Vector(-1.53771, 0.990258, 0.0417448)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.87823373], dtype=float32))])}
+New pose: [-0.20863297581672668, -0.8122920393943787, 0.36465704441070557, 1.1837667226791382, 0.2374340295791626, 1.8013598918914795, 0.2649536728858948]
+New End_effector pose: (0.6030571460723877, 0.0890187919139862, 0.8364113569259644)
+New End_effector pose: Vector(-1.53824, 0.991037, 0.0425438)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([-11.749415,   5.795221], dtype=float32))])}
+New pose: [-0.2089134007692337, -0.8120353817939758, 0.36487656831741333, 1.1838754415512085, 0.23646052181720734, 1.8011301755905151, 0.2657671570777893]
+New End_effector pose: (0.6030609607696533, 0.0887167900800705, 0.8361717462539673)
+New End_effector pose: Vector(-1.44053, 0.990798, 0.114986)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.8073655], dtype=float32))])}
+New pose: [-0.20928700268268585, -0.8117322325706482, 0.3649212718009949, 1.1839134693145752, 0.2351548671722412, 1.8013726472854614, 0.2665727138519287]
+New End_effector pose: (0.6029853224754333, 0.08819249272346497, 0.8359317779541016)
+New End_effector pose: Vector(-1.4404, 0.990556, 0.114486)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.54770505, 0.9250974 , 0.5549438 , 0.62549305, 0.30080038,
+       0.8967797 , 0.01740178], dtype=float32)), ('grip_action', array([-0.89382595], dtype=float32))])}
+New pose: [-0.2014998346567154, -0.7960132360458374, 0.3741244971752167, 1.1940075159072876, 0.23591996729373932, 1.8154375553131104, 0.26958906650543213]
+New End_effector pose: (0.5933431386947632, 0.09428539872169495, 0.8328875303268433)
+New End_effector pose: Vector(-1.43181, 0.987381, 0.121526)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.7587024 , 0.4689618 , 0.92478275, 0.13457473, 0.2873237 ,
+       0.85703367, 0.44985878], dtype=float32)), ('grip_action', array([-0.85594124], dtype=float32))])}
+New pose: [-0.18949048221111298, -0.7918137907981873, 0.3874010741710663, 1.1939858198165894, 0.24377496540546417, 1.8277462720870972, 0.27430951595306396]
+New End_effector pose: (0.5878463983535767, 0.10508127510547638, 0.8363746404647827)
+New End_effector pose: Vector(-1.42762, 0.990852, 0.132738)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.12865965], dtype=float32))])}
+New pose: [-0.1889936625957489, -0.7973943948745728, 0.38290849328041077, 1.1933256387710571, 0.25730541348457336, 1.8224906921386719, 0.26273640990257263]
+New End_effector pose: (0.5900903344154358, 0.10784557461738586, 0.8387143611907959)
+New End_effector pose: Vector(-1.43001, 0.993216, 0.135119)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.03960904], dtype=float32))])}
+New pose: [-0.19439996778964996, -0.7940013408660889, 0.3827039301395416, 1.1935008764266968, 0.23969681560993195, 1.8222439289093018, 0.27384328842163086]
+New End_effector pose: (0.59038245677948, 0.10073161125183105, 0.835048496723175)
+New End_effector pose: Vector(-1.42962, 0.989543, 0.128195)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([17.948982  , -0.08688398], dtype=float32))])}
+New pose: [-0.1945667713880539, -0.7931975722312927, 0.3839164078235626, 1.193019986152649, 0.23537474870681763, 1.8237558603286743, 0.2773185968399048]
+New End_effector pose: (0.5900400280952454, 0.09977689385414124, 0.8346572518348694)
+New End_effector pose: Vector(-1.529, 0.989153, 0.112892)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.758404], dtype=float32))])}
+New pose: [-0.19184382259845734, -0.7951425313949585, 0.383160263299942, 1.1934911012649536, 0.24678848683834076, 1.822931170463562, 0.26943668723106384]
+New End_effector pose: (0.5900207161903381, 0.10384631156921387, 0.8365811705589294)
+New End_effector pose: Vector(-1.52939, 0.991077, 0.116822)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.35654947], dtype=float32))])}
+New pose: [-0.1918320655822754, -0.7948490977287292, 0.38337403535842896, 1.1935474872589111, 0.24643000960350037, 1.8231626749038696, 0.2699154019355774]
+New End_effector pose: (0.5899041295051575, 0.10380793362855911, 0.8364948630332947)
+New End_effector pose: Vector(-1.52928, 0.990989, 0.1168)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.8687597 , 0.05865018, 0.9294391 , 0.06136878, 0.06277342,
+       0.7004801 , 0.41515854], dtype=float32)), ('grip_action', array([0.45019734], dtype=float32))])}
+New pose: [-0.18164359033107758, -0.7919827103614807, 0.39891862869262695, 1.1938583850860596, 0.23280806839466095, 1.8345240354537964, 0.286366730928421]
+New End_effector pose: (0.5845052003860474, 0.10873781144618988, 0.8375729322433472)
+New End_effector pose: Vector(-1.52466, 0.992096, 0.122437)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([14.79103 ,  9.172102], dtype=float32))])}
+New pose: [-0.17746739089488983, -0.795492947101593, 0.39516615867614746, 1.1947662830352783, 0.2580192983150482, 1.8326449394226074, 0.2680366337299347]
+New End_effector pose: (0.5846421718597412, 0.11619681119918823, 0.8413475155830383)
+New End_effector pose: Vector(-1.61766, 0.995854, 0.169891)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.41175908, 0.18487687, 0.09178451, 0.59103304, 0.20275092,
+       0.4410895 , 0.04197223], dtype=float32)), ('grip_action', array([0.24054287], dtype=float32))])}
+New pose: [-0.17638519406318665, -0.7907724976539612, 0.3954552114009857, 1.2039040327072144, 0.24671584367752075, 1.8378194570541382, 0.2779649794101715]
+New End_effector pose: (0.579731285572052, 0.1133875697851181, 0.8380351066589355)
+New End_effector pose: Vector(-1.61289, 0.992483, 0.167305)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.02423993, 0.33854675, 0.8945283 , 0.2358639 , 0.54194814,
+       0.45413595, 0.57581586], dtype=float32)), ('grip_action', array([-0.11482622], dtype=float32))])}
+New pose: [-0.17766200006008148, -0.7845730185508728, 0.4117109179496765, 1.205328345298767, 0.24847140908241272, 1.8457263708114624, 0.2922224998474121]
+New End_effector pose: (0.5756615996360779, 0.11728468537330627, 0.8397402167320251)
+New End_effector pose: Vector(-1.60901, 0.99412, 0.171202)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.37439036], dtype=float32))])}
+New pose: [-0.17501915991306305, -0.7882947325706482, 0.407223105430603, 1.2041593790054321, 0.260021835565567, 1.8426830768585205, 0.2803213596343994]
+New End_effector pose: (0.5770803093910217, 0.12040938436985016, 0.8415805101394653)
+New End_effector pose: Vector(-1.61039, 0.995981, 0.17419)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([-15.836191,  -7.310742], dtype=float32))])}
+New pose: [-0.17605216801166534, -0.7876609563827515, 0.4063167870044708, 1.2046526670455933, 0.2537396252155304, 1.8425239324569702, 0.28374579548835754]
+New End_effector pose: (0.5771284103393555, 0.11809159815311432, 0.8402557373046875)
+New End_effector pose: Vector(-1.51797, 0.99466, 0.122362)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.02840514], dtype=float32))])}
+New pose: [-0.1774546205997467, -0.7864463925361633, 0.4079975187778473, 1.2043708562850952, 0.2501004934310913, 1.8433927297592163, 0.28756994009017944]
+New End_effector pose: (0.5769709348678589, 0.11693916469812393, 0.8397597074508667)
+New End_effector pose: Vector(-1.51771, 0.994158, 0.121266)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.8889031 , 0.451528  , 0.81205523, 0.9381135 , 0.81206   ,
+       0.9058027 , 0.09160822], dtype=float32)), ('grip_action', array([-0.14412081], dtype=float32))])}
+New pose: [-0.16427640616893768, -0.778581440448761, 0.42068251967430115, 1.21955406665802, 0.25814029574394226, 1.8572335243225098, 0.29185983538627625]
+New End_effector pose: (0.5650869607925415, 0.12699110805988312, 0.8410223126411438)
+New End_effector pose: Vector(-1.50736, 0.99529, 0.132539)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.7885438 , 0.68834233, 0.5378079 , 0.28610265, 0.8751066 ,
+       0.4035258 , 0.68741655], dtype=float32)), ('grip_action', array([-0.6159447], dtype=float32))])}
+New pose: [-0.1491388976573944, -0.771027684211731, 0.4266786277294159, 1.2215359210968018, 0.2873046398162842, 1.861764669418335, 0.2913658022880554]
+New End_effector pose: (0.5600683093070984, 0.14215481281280518, 0.844651460647583)
+New End_effector pose: Vector(-1.50418, 0.998846, 0.14793)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.37092865], dtype=float32))])}
+New pose: [-0.152991384267807, -0.7750022411346436, 0.4234083592891693, 1.219398856163025, 0.28514906764030457, 1.858857274055481, 0.28734996914863586]
+New End_effector pose: (0.5626059770584106, 0.1393730193376541, 0.844730019569397)
+New End_effector pose: Vector(-1.50631, 0.998959, 0.144884)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([  3.8590543, -17.398956 ], dtype=float32))])}
+New pose: [-0.15861155092716217, -0.7721602320671082, 0.4241131544113159, 1.2195985317230225, 0.26478493213653564, 1.8587234020233154, 0.30000177025794983]
+New End_effector pose: (0.5632015466690063, 0.1320389211177826, 0.8408268690109253)
+New End_effector pose: Vector(-1.60961, 0.995068, 0.0771359)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([-9.329849 ,  3.1263015], dtype=float32))])}
+New pose: [-0.1563064157962799, -0.7718319296836853, 0.4244183599948883, 1.2195799350738525, 0.2703641355037689, 1.859598159790039, 0.2978627383708954]
+New End_effector pose: (0.5626171231269836, 0.1344466507434845, 0.8417714238166809)
+New End_effector pose: Vector(-1.5074, 0.996002, 0.15001)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.70188516], dtype=float32))])}
+New pose: [-0.15399490296840668, -0.7739791870117188, 0.42404627799987793, 1.2199716567993164, 0.2798754572868347, 1.859327793121338, 0.29072344303131104]
+New End_effector pose: (0.5623409152030945, 0.13773822784423828, 0.8437265753746033)
+New End_effector pose: Vector(-1.50746, 0.997954, 0.153214)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.16270748, 0.54712886, 0.06046505, 0.5143924 , 0.35364708,
+       0.6237805 , 0.31194705], dtype=float32)), ('grip_action', array([-0.51421726], dtype=float32))])}
+New pose: [-0.15267407894134521, -0.7639446258544922, 0.4252329170703888, 1.2283958196640015, 0.2808181345462799, 1.8694326877593994, 0.2995353639125824]
+New End_effector pose: (0.5562124252319336, 0.13762186467647552, 0.8420416712760925)
+New End_effector pose: Vector(-1.5016, 0.996114, 0.15381)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.1591905], dtype=float32))])}
+New pose: [-0.15383988618850708, -0.7654950022697449, 0.42496228218078613, 1.2262076139450073, 0.2769883871078491, 1.8676470518112183, 0.29984501004219055]
+New End_effector pose: (0.55767422914505, 0.13633185625076294, 0.8417556881904602)
+New End_effector pose: Vector(-1.50287, 0.995864, 0.152395)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([ 12.726387, -11.975073], dtype=float32))])}
+New pose: [-0.15376126766204834, -0.766906201839447, 0.42485716938972473, 1.2255977392196655, 0.27835792303085327, 1.8660082817077637, 0.29814982414245605]
+New End_effector pose: (0.5583310723304749, 0.13686612248420715, 0.842131495475769)
+New End_effector pose: Vector(-1.60758, 0.996258, 0.0926276)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.3065032], dtype=float32))])}
+New pose: [-0.15309718251228333, -0.7658012509346008, 0.42499151825904846, 1.2266058921813965, 0.27980589866638184, 1.867616891860962, 0.2982543706893921]
+New End_effector pose: (0.5574426651000977, 0.13735489547252655, 0.8422391414642334)
+New End_effector pose: Vector(-1.60684, 0.996343, 0.0932797)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.6720642 , 0.94573164, 0.5932009 , 0.8918221 , 0.39684927,
+       0.18456258, 0.6586763 ], dtype=float32)), ('grip_action', array([0.5446103], dtype=float32))])}
+New pose: [-0.1437046080827713, -0.7497369647026062, 0.43483301997184753, 1.24056077003479, 0.2806808352470398, 1.8695237636566162, 0.3124883770942688]
+New End_effector pose: (0.5487249493598938, 0.1438424289226532, 0.838239312171936)
+New End_effector pose: Vector(-1.59997, 0.992214, 0.101498)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.23718846], dtype=float32))])}
+New pose: [-0.14256660640239716, -0.754973828792572, 0.43248921632766724, 1.2379255294799805, 0.29116278886795044, 1.8702309131622314, 0.3019881248474121]
+New End_effector pose: (0.5498819351196289, 0.14622807502746582, 0.8413955569267273)
+New End_effector pose: Vector(-1.60152, 0.995384, 0.103474)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([  5.212204 , -10.9049835], dtype=float32))])}
+New pose: [-0.1459309458732605, -0.7555786371231079, 0.43167170882225037, 1.2363700866699219, 0.283611536026001, 1.8686619997024536, 0.30600297451019287]
+New End_effector pose: (0.5514089465141296, 0.14293384552001953, 0.8401157259941101)
+New End_effector pose: Vector(-1.70056, 0.994132, 0.0301981)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([15.404499, 19.880228], dtype=float32))])}
+New pose: [-0.14590463042259216, -0.7528793215751648, 0.4327746331691742, 1.2376937866210938, 0.27938783168792725, 1.8694308996200562, 0.31022483110427856]
+New End_effector pose: (0.5505023002624512, 0.14209459722042084, 0.8388672471046448)
+New End_effector pose: Vector(-1.79442, 0.992868, 0.0484133)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.47790316], dtype=float32))])}
+New pose: [-0.14470073580741882, -0.7546821236610413, 0.43223604559898376, 1.2372628450393677, 0.2852121591567993, 1.8695008754730225, 0.30558621883392334]
+New End_effector pose: (0.5506143569946289, 0.14389118552207947, 0.8402649164199829)
+New End_effector pose: Vector(-1.79488, 0.994267, 0.0500874)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.03219723], dtype=float32))])}
+New pose: [-0.14462687075138092, -0.7546441555023193, 0.4323314130306244, 1.237396001815796, 0.28547564148902893, 1.8692550659179688, 0.30563098192214966]
+New End_effector pose: (0.550595223903656, 0.14403942227363586, 0.8402523994445801)
+New End_effector pose: Vector(-1.79489, 0.994255, 0.0502342)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([-0.06911904,  6.753728  ], dtype=float32))])}
+New pose: [-0.1452721357345581, -0.7540584802627563, 0.4323974847793579, 1.2373533248901367, 0.28286218643188477, 1.8693921566009521, 0.30741962790489197]
+New End_effector pose: (0.5506407618522644, 0.1431259661912918, 0.8397143483161926)
+New End_effector pose: Vector(-1.78263, 0.993717, 0.0995609)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([16.24844 , -5.557386], dtype=float32))])}
+New pose: [-0.14525482058525085, -0.7542504668235779, 0.4323306381702423, 1.2372781038284302, 0.2831750810146332, 1.8693276643753052, 0.3071014881134033]
+New End_effector pose: (0.5506966710090637, 0.14320075511932373, 0.8398033976554871)
+New End_effector pose: Vector(-1.88747, 0.993807, 0.0400452)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.78695214], dtype=float32))])}
+New pose: [-0.14490625262260437, -0.754376232624054, 0.4323594272136688, 1.2373762130737305, 0.2842913866043091, 1.8693519830703735, 0.3064180314540863]
+New End_effector pose: (0.550606906414032, 0.14362652599811554, 0.840013861656189)
+New End_effector pose: Vector(-1.88747, 0.994016, 0.0404698)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([-18.34204 ,  16.936337], dtype=float32))])}
+New pose: [-0.14497768878936768, -0.754328727722168, 0.4323563575744629, 1.2373586893081665, 0.2840333580970764, 1.8693732023239136, 0.30658453702926636]
+New End_effector pose: (0.5506172180175781, 0.14352981746196747, 0.8399648666381836)
+New End_effector pose: Vector(-1.78422, 0.993968, 0.109824)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([15.321417, 18.74238 ], dtype=float32))])}
+New pose: [-0.14513827860355377, -0.7542659044265747, 0.4323514401912689, 1.2373241186141968, 0.28353041410446167, 1.8693346977233887, 0.3069160282611847]
+New End_effector pose: (0.5506594181060791, 0.14334170520305634, 0.8398635387420654)
+New End_effector pose: Vector(-1.87344, 0.993867, 0.146838)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.42965034, 0.6341092 , 0.7214644 , 0.5208854 , 0.23302378,
+       0.39658517, 0.98292917], dtype=float32)), ('grip_action', array([-0.28138635], dtype=float32))])}
+New pose: [-0.13909019529819489, -0.7431339025497437, 0.4443843960762024, 1.245760440826416, 0.2837006747722626, 1.8755710124969482, 0.32575032114982605]
+New End_effector pose: (0.543509840965271, 0.1482018083333969, 0.8389623165130615)
+New End_effector pose: Vector(-1.86658, 0.992854, 0.151856)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([-1.0646424,  7.2832317], dtype=float32))])}
+New pose: [-0.137507364153862, -0.7470858097076416, 0.4415372312068939, 1.244340181350708, 0.29334861040115356, 1.875047206878662, 0.314823716878891]
+New End_effector pose: (0.544387936592102, 0.15056486427783966, 0.8411965370178223)
+New End_effector pose: Vector(-1.75178, 0.9951, 0.201021)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.80942315], dtype=float32))])}
+New pose: [-0.14029660820960999, -0.7472360134124756, 0.44053974747657776, 1.2432485818862915, 0.2865181267261505, 1.8734591007232666, 0.31798550486564636]
+New End_effector pose: (0.5456691384315491, 0.14768698811531067, 0.8397999405860901)
+New End_effector pose: Vector(-1.75328, 0.993726, 0.198322)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.39633185, 0.36191103, 0.17930794, 0.11158653, 0.3481742 ,
+       0.7549064 , 0.5957719 ], dtype=float32)), ('grip_action', array([-0.26049784], dtype=float32))])}
+New pose: [-0.13473796844482422, -0.7388170957565308, 0.44489365816116333, 1.245705246925354, 0.28592225909233093, 1.8868863582611084, 0.33408457040786743]
+New End_effector pose: (0.5402252674102783, 0.14930851757526398, 0.8403151035308838)
+New End_effector pose: Vector(-1.74791, 0.994124, 0.199563)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.18871132, 0.5468292 , 0.513406  , 0.86766815, 0.99288696,
+       0.78510916, 0.22045904], dtype=float32)), ('grip_action', array([0.02793062], dtype=float32))])}
+New pose: [-0.13053205609321594, -0.7332071661949158, 0.452107310295105, 1.2598448991775513, 0.3109411597251892, 1.8969827890396118, 0.327759712934494]
+New End_effector pose: (0.5314247012138367, 0.157058447599411, 0.844799816608429)
+New End_effector pose: Vector(-1.73871, 0.998369, 0.206332)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.30090836], dtype=float32))])}
+New pose: [-0.13111910223960876, -0.7362178564071655, 0.449902206659317, 1.2564737796783447, 0.30893781781196594, 1.893106460571289, 0.32483068108558655]
+New End_effector pose: (0.5338740348815918, 0.1564251184463501, 0.8444425463676453)
+New End_effector pose: Vector(-1.74113, 0.998079, 0.205907)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.35012162, 0.83167   , 0.674598  , 0.48356333, 0.37389958,
+       0.71607304, 0.99161285], dtype=float32)), ('grip_action', array([-0.39240617], dtype=float32))])}
+New pose: [-0.12842608988285065, -0.7205151915550232, 0.4608544707298279, 1.2628347873687744, 0.30247360467910767, 1.904415249824524, 0.35033902525901794]
+New End_effector pose: (0.5269176363945007, 0.15699951350688934, 0.8426158428192139)
+New End_effector pose: Vector(-1.7344, 0.996077, 0.206048)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.27557975], dtype=float32))])}
+New pose: [-0.12692785263061523, -0.7243644595146179, 0.45892134308815, 1.2629868984222412, 0.31147199869155884, 1.903532862663269, 0.33998438715934753]
+New End_effector pose: (0.5272161960601807, 0.15935978293418884, 0.8446348309516907)
+New End_effector pose: Vector(-1.73446, 0.998102, 0.208321)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.03839508], dtype=float32))])}
+New pose: [-0.12791751325130463, -0.7261794805526733, 0.4575789272785187, 1.2615238428115845, 0.3097282648086548, 1.901214838027954, 0.3390533924102783]
+New End_effector pose: (0.5285837054252625, 0.15858706831932068, 0.8442668318748474)
+New End_effector pose: Vector(-1.73585, 0.997771, 0.20767)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.7013564 , 0.1331449 , 0.47732568, 0.62426764, 0.8881173 ,
+       0.41873327, 0.6067998 ], dtype=float32)), ('grip_action', array([0.6565697], dtype=float32))])}
+New pose: [-0.11850140243768692, -0.7203519940376282, 0.46691811084747314, 1.272281527519226, 0.31483209133148193, 1.9094420671463013, 0.35805749893188477]
+New End_effector pose: (0.5204163789749146, 0.16422942280769348, 0.8459733128547668)
+New End_effector pose: Vector(-1.72742, 0.999354, 0.212661)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.21416569], dtype=float32))])}
+New pose: [-0.11590255796909332, -0.7247416377067566, 0.46443161368370056, 1.2706972360610962, 0.32996779680252075, 1.9083738327026367, 0.34200647473335266]
+New End_effector pose: (0.5212051868438721, 0.1684291809797287, 0.8491503000259399)
+New End_effector pose: Vector(-1.7278, 1.00253, 0.216739)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.58077407, 0.8930282 , 0.98883915, 0.25430202, 0.7035509 ,
+       0.23810183, 0.23541622], dtype=float32)), ('grip_action', array([0.28072014], dtype=float32))])}
+New pose: [-0.11192072182893753, -0.7075462341308594, 0.48030105233192444, 1.2730205059051514, 0.32525378465652466, 1.910368800163269, 0.35571223497390747]
+New End_effector pose: (0.5165266394615173, 0.17230349779129028, 0.8466964364051819)
+New End_effector pose: Vector(-1.72296, 0.99997, 0.220306)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([ -0.5674293, -11.0815115], dtype=float32))])}
+New pose: [-0.11046192049980164, -0.7116307616233826, 0.477413147687912, 1.2737972736358643, 0.3311048150062561, 1.9115220308303833, 0.35107406973838806]
+New End_effector pose: (0.5163607597351074, 0.1733313947916031, 0.8484636545181274)
+New End_effector pose: Vector(-1.68401, 1.00174, 0.172757)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.98473036], dtype=float32))])}
+New pose: [-0.11239337176084518, -0.7132622599601746, 0.47552743554115295, 1.272779107093811, 0.3287801146507263, 1.9100581407546997, 0.3506653606891632]
+New End_effector pose: (0.517629086971283, 0.17185507714748383, 0.8479506373405457)
+New End_effector pose: Vector(-1.68523, 1.00125, 0.171272)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.90395176, 0.8370457 , 0.22912784, 0.79008   , 0.9710298 ,
+       0.30351156, 0.31825423], dtype=float32)), ('grip_action', array([-0.9582311], dtype=float32))])}
+New pose: [-0.09887529909610748, -0.6957226395606995, 0.48136505484580994, 1.2857111692428589, 0.3366607129573822, 1.9151146411895752, 0.3629155457019806]
+New End_effector pose: (0.508192241191864, 0.1789419949054718, 0.8460994362831116)
+New End_effector pose: Vector(-1.67615, 0.99919, 0.17857)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([0.7348644, 5.8190346], dtype=float32))])}
+New pose: [-0.09758107364177704, -0.7027620077133179, 0.47955358028411865, 1.2837942838668823, 0.3497387766838074, 1.9153388738632202, 0.34979143738746643]
+New End_effector pose: (0.5091754198074341, 0.182067409157753, 0.8499885201454163)
+New End_effector pose: Vector(-1.73193, 1.0031, 0.22349)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.31972936], dtype=float32))])}
+New pose: [-0.10190711170434952, -0.7025045156478882, 0.4793088138103485, 1.2820405960083008, 0.3392411768436432, 1.913584589958191, 0.35583576560020447]
+New End_effector pose: (0.5108909606933594, 0.17829780280590057, 0.8477972149848938)
+New End_effector pose: Vector(-1.73393, 1.00095, 0.219961)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([-6.3669395, 12.825272 ], dtype=float32))])}
+New pose: [-0.10153006762266159, -0.699601411819458, 0.4798988699913025, 1.2831679582595825, 0.3353448212146759, 1.914405107498169, 0.36003243923187256]
+New End_effector pose: (0.5100662112236023, 0.1775112897157669, 0.8465923070907593)
+New End_effector pose: Vector(-1.61124, 0.999726, 0.25064)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.70745504], dtype=float32))])}
+New pose: [-0.10018834471702576, -0.7018954157829285, 0.47956374287605286, 1.282970905303955, 0.3421490788459778, 1.9144926071166992, 0.35454967617988586]
+New End_effector pose: (0.5100367665290833, 0.17950381338596344, 0.848322331905365)
+New End_effector pose: Vector(-1.61083, 1.00145, 0.252518)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.08138502], dtype=float32))])}
+New pose: [-0.10028064996004105, -0.7016588449478149, 0.4796466529369354, 1.2830440998077393, 0.3417581617832184, 1.9143277406692505, 0.3550971746444702]
+New End_effector pose: (0.5100336670875549, 0.1794194132089615, 0.8481715321540833)
+New End_effector pose: Vector(-1.61085, 1.0013, 0.252439)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.08379687, 0.67360663, 0.9668812 , 0.43458864, 0.7692191 ,
+       0.18074179, 0.45089874], dtype=float32)), ('grip_action', array([0.39418277], dtype=float32))])}
+New pose: [-0.1002710834145546, -0.6893130540847778, 0.4957598149776459, 1.290000319480896, 0.349316269159317, 1.917035698890686, 0.366134375333786]
+New End_effector pose: (0.5045474767684937, 0.1839163601398468, 0.8493252396583557)
+New End_effector pose: Vector(-1.60478, 1.00228, 0.255825)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([ -1.5511632, -18.934006 ], dtype=float32))])}
+New pose: [-0.09847131371498108, -0.6933652758598328, 0.4919399619102478, 1.288734793663025, 0.35361650586128235, 1.9170221090316772, 0.3593143820762634]
+New End_effector pose: (0.5053365230560303, 0.1848077028989792, 0.8504983186721802)
+New End_effector pose: Vector(-1.53023, 1.00348, 0.197648)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([-13.820389,  -6.111745], dtype=float32))])}
+New pose: [-0.09974512457847595, -0.6937512159347534, 0.4906299114227295, 1.287909746170044, 0.34911850094795227, 1.9162334203720093, 0.3612395226955414]
+New End_effector pose: (0.5061679482460022, 0.18318788707256317, 0.8494564294815063)
+New End_effector pose: Vector(-1.45037, 1.00246, 0.144702)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.1709741 , 0.22570278, 0.6293138 , 0.13352889, 0.39420474,
+       0.00524992, 0.8356578 ], dtype=float32)), ('grip_action', array([-0.2591702], dtype=float32))])}
+New pose: [-0.09803828597068787, -0.6877410411834717, 0.5029003024101257, 1.2905982732772827, 0.3521255552768707, 1.9165230989456177, 0.3791487514972687]
+New End_effector pose: (0.503056526184082, 0.18699724972248077, 0.8505346775054932)
+New End_effector pose: Vector(-1.44738, 1.00348, 0.148556)
+Sample action modified: {'action': 'ARM_ACTION', 'action_args': OrderedDict([('arm_action', array([0.33894473, 0.96033144, 0.00772503, 0.95977   , 0.37413508,
+       0.29888228, 0.8441211 ], dtype=float32)), ('grip_action', array([-0.5053691], dtype=float32))])}
+New pose: [-0.09038751572370529, -0.6749883890151978, 0.49973413348197937, 1.306267261505127, 0.36570653319358826, 1.9217712879180908, 0.3829995095729828]
+New End_effector pose: (0.4951464831829071, 0.19046631455421448, 0.8497443199157715)
+New End_effector pose: Vector(-1.43973, 1.00243, 0.152136)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.5262839], dtype=float32))])}
+New pose: [-0.09318539500236511, -0.6780950427055359, 0.4989396333694458, 1.3021451234817505, 0.3594806492328644, 1.9205914735794067, 0.3817499279975891]
+New End_effector pose: (0.4975132644176483, 0.18830494582653046, 0.8491482138633728)
+New End_effector pose: Vector(-1.44202, 1.00191, 0.149966)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([-14.521841 ,  15.2706585], dtype=float32))])}
+New pose: [-0.0943940281867981, -0.6785202622413635, 0.5002021789550781, 1.3008853197097778, 0.35645222663879395, 1.9197078943252563, 0.3843625783920288]
+New End_effector pose: (0.49817416071891785, 0.18765951693058014, 0.8487960696220398)
+New End_effector pose: Vector(-1.32347, 1.00158, 0.191628)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.68813837], dtype=float32))])}
+New pose: [-0.09276455640792847, -0.6775657534599304, 0.4995446503162384, 1.3027554750442505, 0.36036401987075806, 1.9206923246383667, 0.38260507583618164]
+New End_effector pose: (0.497109591960907, 0.18873493373394012, 0.8492809534072876)
+New End_effector pose: Vector(-1.32234, 1.00203, 0.192589)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([-0.5789591, 16.610407 ], dtype=float32))])}
+New pose: [-0.09305309504270554, -0.6784065961837769, 0.4996773898601532, 1.301938533782959, 0.36020052433013916, 1.9203903675079346, 0.3819922208786011]
+New End_effector pose: (0.4975195527076721, 0.18871530890464783, 0.8494476079940796)
+New End_effector pose: Vector(-1.24176, 1.00221, 0.226569)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.6468384], dtype=float32))])}
+New pose: [-0.09344347566366196, -0.6779770255088806, 0.4997456967830658, 1.3019882440567017, 0.35879218578338623, 1.9202719926834106, 0.3832460641860962]
+New End_effector pose: (0.4975598454475403, 0.18828585743904114, 0.8490768671035767)
+New End_effector pose: Vector(-1.24188, 1.00184, 0.226168)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.9827661], dtype=float32))])}
+New pose: [-0.09328968822956085, -0.6779347062110901, 0.4996682107448578, 1.3021057844161987, 0.35913217067718506, 1.920399785041809, 0.3829817771911621]
+New End_effector pose: (0.4974784255027771, 0.18837542831897736, 0.8491357564926147)
+New End_effector pose: Vector(-1.24178, 1.0019, 0.22624)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([-17.50876  ,   2.1223264], dtype=float32))])}
+New pose: [-0.09317322820425034, -0.6781493425369263, 0.4997034966945648, 1.302047610282898, 0.3596661388874054, 1.920375108718872, 0.3825609087944031]
+New End_effector pose: (0.49748897552490234, 0.18855279684066772, 0.849286675453186)
+New End_effector pose: Vector(-1.11647, 1.00205, 0.244101)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([-15.384318,  -8.994405], dtype=float32))])}
+New pose: [-0.09323795139789581, -0.678051769733429, 0.49969860911369324, 1.30207097530365, 0.35941267013549805, 1.9203667640686035, 0.3827856779098511]
+New End_effector pose: (0.4974891245365143, 0.18847106397151947, 0.8492141962051392)
+New End_effector pose: Vector(-1.04783, 1.00198, 0.178501)
+Sample action modified: {'action': 'BASE_VELOCITY', 'action_args': OrderedDict([('base_vel', array([-9.402758,  6.38861 ], dtype=float32))])}
+New pose: [-0.0932910293340683, -0.6780183911323547, 0.499693363904953, 1.3020517826080322, 0.35921764373779297, 1.920363426208496, 0.38289952278137207]
+New End_effector pose: (0.4975046217441559, 0.1884082853794098, 0.8491703271865845)
+New End_effector pose: Vector(-0.922592, 1.00193, 0.19614)
+Sample action modified: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([-0.12212642], dtype=float32))])}
+New pose: [-0.09324651956558228, -0.6780604720115662, 0.49969804286956787, 1.3020575046539307, 0.3593832850456238, 1.9203672409057617, 0.38278380036354065]
+New End_effector pose: (0.49749577045440674, 0.18846188485622406, 0.849211573600769)
+New End_effector pose: Vector(-0.922568, 1.00197, 0.196188)
+Sample action: {'action': 'EMPTY', 'action_args': OrderedDict([('empty_action', array([0.04002581], dtype=float32))])}
+Action space: ActionSpace(ARM_ACTION:Dict(arm_action:Box(0.0, 1.0, (7,), float32), grip_action:Box(-1.0, 1.0, (1,), float32)), BASE_VELOCITY:Box(-20.0, 20.0, (2,), float32), EMPTY:Dict(empty_action:Box(-1.0, 1.0, (1,), float32)))
+Episode finished after 200 steps.

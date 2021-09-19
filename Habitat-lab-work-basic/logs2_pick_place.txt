@@ -1,0 +1,340 @@
+pybullet build time: Sep 22 2020 00:54:31
+Renderer: NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 470.63.01
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+Using driver workarounds:
+    no-forward-compatible-core-context
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+Renderer: NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 470.63.01
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+Using driver workarounds:
+    no-forward-compatible-core-context
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+BulletPhysicsManager::addArticulatedObjectFromURDF: simpleObjectHandle :  kitchen_counter
+BulletPhysicsManager::addArticulatedObjectFromURDF: newArtObjectHandle :  kitchen_counter_:0000
+BulletPhysicsManager::addArticulatedObjectFromURDF: simpleObjectHandle :  fridge
+BulletPhysicsManager::addArticulatedObjectFromURDF: newArtObjectHandle :  fridge_:0000
+BulletPhysicsManager::addArticulatedObjectFromURDF: simpleObjectHandle :  hab_fetch
+BulletPhysicsManager::addArticulatedObjectFromURDF: newArtObjectHandle :  hab_fetch_:0000
+BulletArticulatedObject::createMotorsForAllDofs():  {(27, 24), (26, 23), (25, 21), (24, 20), (23, 19), (22, 18), (21, 17), (20, 16), (19, 15), (18, 9), (17, 8), (16, 6), (15, 4), (14, 2)}
+b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,467]:
+Bad inertia tensor properties, setting inertia to zero for link: r_gripper_finger_link
+b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,467]:
+Bad inertia tensor properties, setting inertia to zero for link: l_gripper_finger_link
+b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,467]:
+Bad inertia tensor properties, setting inertia to zero for link: r_gripper_finger_link
+b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,467]:
+Bad inertia tensor properties, setting inertia to zero for link: l_gripper_finger_link
+b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,467]:
+Bad inertia tensor properties, setting inertia to zero for link: r_gripper_finger_link
+b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,467]:
+Bad inertia tensor properties, setting inertia to zero for link: l_gripper_finger_link
+b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,467]:
+Bad inertia tensor properties, setting inertia to zero for link: r_gripper_finger_link
+b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,467]:
+Bad inertia tensor properties, setting inertia to zero for link: l_gripper_finger_link
+Environment creation successful
+Agent acting inside environment.
+1. Object ID: 13	Position: [-2.2563863   0.8551587  -0.02341979]
+2. Object ID: 14	Position: [-2.0129874   0.82917887  0.04497597]
+3. Object ID: 15	Position: [-2.2196012   0.82684374  0.15477401]
+4. Object ID: 16	Position: [-2.0338864   0.89186555 -0.2183619 ]
+5. Object ID: 17	Position: [-2.1049783   0.85566175 -0.31389067]
+6. Object ID: 18	Position: [ 4.133816    0.9747424  -0.04190418]
+7. Object ID: 19	Position: [3.5861044  0.9784322  0.19696705]
+8. Object ID: 20	Position: [ 3.9628267   0.94791996 -0.28754812]
+9. Object ID: 21	Position: [ 4.0069876   1.0034605  -0.04190333]
+10. Object ID: 22	Position: [ 3.73961    0.9789468 -0.2816743]
+11. Object ID: 23	Position: [0.8897045 0.4511417 6.4631367]
+12. Object ID: 24	Position: [1.0476321  0.45061514 6.269396  ]
+13. Object ID: 25	Position: [-2.0871878   0.82464176  1.9678974 ]
+14. Object ID: 26	Position: [-2.2316718  0.8370774  1.794112 ]
+15. Object ID: 27	Position: [-2.003864    0.85516894  1.8805747 ]
+16. Object ID: 28	Position: [-2.2787714  0.8514436  2.1844265]
+17. Object ID: 29	Position: [-2.0397635  0.8268437  1.6737024]
+18. Object ID: 30	Position: [-2.2105613   1.0659976  -0.89102554]
+19. Object ID: 31	Position: [-2.049994   1.645604  -0.9767703]
+20. Object ID: 32	Position: [-2.0783272  1.2920175 -1.0536004]
+1. Object ID: 13	Position: [-2.2563863   0.8551587  -0.02341979]	Distance: 3.318699390093617
+2. Object ID: 14	Position: [-2.0129874   0.82917887  0.04497597]	Distance: 3.0723172561865932
+3. Object ID: 15	Position: [-2.2196012   0.82684374  0.15477401]	Distance: 3.227212781004629
+4. Object ID: 16	Position: [-2.0338864   0.89186555 -0.2183619 ]	Distance: 3.200815221932233
+5. Object ID: 17	Position: [-2.1049783   0.85566175 -0.31389067]	Distance: 3.2856884094848056
+6. Object ID: 18	Position: [ 4.133816    0.9747424  -0.04190418]	Distance: 3.7639045788639063
+7. Object ID: 19	Position: [3.5861044  0.9784322  0.19696705]	Distance: 3.210744434592964
+8. Object ID: 20	Position: [ 3.9628267   0.94791996 -0.28754812]	Distance: 3.676654612326688
+9. Object ID: 21	Position: [ 4.0069876   1.0034605  -0.04190333]	Distance: 3.6588045338132282
+10. Object ID: 22	Position: [ 3.73961    0.9789468 -0.2816743]	Distance: 3.4897521715570448
+11. Object ID: 23	Position: [0.8897045 0.4511417 6.4631367]	Distance: 5.544830291603644
+12. Object ID: 24	Position: [1.0476321  0.45061514 6.269396  ]	Distance: 5.360122131353559
+13. Object ID: 25	Position: [-2.0871878   0.82464176  1.9678974 ]	Distance: 3.1625924885986616
+14. Object ID: 26	Position: [-2.2316718  0.8370774  1.794112 ]	Distance: 3.2467014898072337
+15. Object ID: 27	Position: [-2.003864    0.85516894  1.8805747 ]	Distance: 3.072460857858134
+16. Object ID: 28	Position: [-2.2787714  0.8514436  2.1844265]	Distance: 3.4135426333258096
+17. Object ID: 29	Position: [-2.0397635  0.8268437  1.6737024]	Distance: 3.0395829528324567
+18. Object ID: 30	Position: [-2.2105613   1.0659976  -0.89102554]	Distance: 3.703575980898831
+19. Object ID: 31	Position: [-2.049994   1.645604  -0.9767703]	Distance: 3.870150523426572
+20. Object ID: 32	Position: [-2.0783272  1.2920175 -1.0536004]	Distance: 3.772418690788801
+Closest object id: 29 | Distance: 3.0395829528324567 | Position: [-2.0397635  0.8268437  1.6737024]
+Trying to reach obj -------------------------------------------------------------------------------------------------------
+Target EE.[[-2.0397635  0.8268437  1.6737024]]
+Type of target_ee.<class 'numpy.ndarray'>
+EE distance: 3.033518612504521	 Joint Distance: 5.095522652862951	 Collisions: 0
+EE distance: 3.030419473273348	 Joint Distance: 5.0828561048688	 Collisions: 0
+EE distance: 3.025247788793784	 Joint Distance: 5.063326272408373	 Collisions: 0
+EE distance: 3.0201986237117042	 Joint Distance: 5.044517148653935	 Collisions: 0
+EE distance: 3.015999327761146	 Joint Distance: 5.029773636089608	 Collisions: 0
+EE distance: 3.01070006117806	 Joint Distance: 5.011431291216386	 Collisions: 0
+EE distance: 3.0055006876691066	 Joint Distance: 4.994082628777305	 Collisions: 0
+EE distance: 3.0003441059470015	 Joint Distance: 4.977547783491737	 Collisions: 0
+EE distance: 2.9948426386775657	 Joint Distance: 4.960231306261463	 Collisions: 0
+EE distance: 2.9892619439005066	 Joint Distance: 4.943195958144418	 Collisions: 0
+EE distance: 2.983571597302244	 Joint Distance: 4.926330539585443	 Collisions: 0
+EE distance: 2.9882317514133763	 Joint Distance: 4.938721966698711	 Collisions: 0
+EE distance: 2.999693727045843	 Joint Distance: 4.975308679557419	 Collisions: 0
+EE distance: 3.0109752827589036	 Joint Distance: 5.012276174429588	 Collisions: 0
+EE distance: 3.0101064678389857	 Joint Distance: 5.0055426129769485	 Collisions: 0
+EE distance: 3.0006881997203583	 Joint Distance: 4.968106560950347	 Collisions: 0
+EE distance: 2.993655928281431	 Joint Distance: 4.939716512280887	 Collisions: 0
+EE distance: 2.9900164819222	 Joint Distance: 4.923432872682622	 Collisions: 0
+EE distance: 2.9840276654750624	 Joint Distance: 4.899226815892212	 Collisions: 0
+EE distance: 2.9794973474882704	 Joint Distance: 4.880440120857212	 Collisions: 0
+EE distance: 2.977309104449034	 Joint Distance: 4.869879209046249	 Collisions: 0
+EE distance: 2.972509341911016	 Joint Distance: 4.8502288667492515	 Collisions: 0
+EE distance: 2.9673125680543753	 Joint Distance: 4.8294001580613015	 Collisions: 0
+EE distance: 2.962885558464944	 Joint Distance: 4.811442064445782	 Collisions: 0
+EE distance: 2.9596618236894523	 Joint Distance: 4.797743557268607	 Collisions: 0
+EE distance: 2.9572431817408247	 Joint Distance: 4.786905680786873	 Collisions: 0
+EE distance: 2.9546444533343	 Joint Distance: 4.775531941328498	 Collisions: 0
+EE distance: 2.9519433966594604	 Joint Distance: 4.763887912784792	 Collisions: 0
+EE distance: 2.949297717639918	 Joint Distance: 4.752524585895637	 Collisions: 0
+EE distance: 2.945842019354561	 Joint Distance: 4.738508396759276	 Collisions: 0
+EE distance: 2.9419256543338594	 Joint Distance: 4.723026707185511	 Collisions: 0
+EE distance: 2.938112163733706	 Joint Distance: 4.707982668109346	 Collisions: 0
+EE distance: 2.934314619820999	 Joint Distance: 4.693096459606973	 Collisions: 0
+EE distance: 2.9304581667871346	 Joint Distance: 4.678128177321456	 Collisions: 0
+EE distance: 2.9266084621772652	 Joint Distance: 4.663281973764986	 Collisions: 0
+EE distance: 2.922755075732574	 Joint Distance: 4.6485075028513725	 Collisions: 0
+EE distance: 2.9188930891185785	 Joint Distance: 4.633792142901755	 Collisions: 0
+EE distance: 2.9150233491432798	 Joint Distance: 4.6191461715619075	 Collisions: 0
+EE distance: 2.911143559090212	 Joint Distance: 4.604559570711187	 Collisions: 0
+EE distance: 2.9072574105169493	 Joint Distance: 4.590036501738877	 Collisions: 0
+EE distance: 2.903367005339427	 Joint Distance: 4.575579811966578	 Collisions: 0
+EE distance: 2.8994706410996396	 Joint Distance: 4.561185082485733	 Collisions: 0
+EE distance: 2.8955675280541695	 Joint Distance: 4.54685061085776	 Collisions: 0
+EE distance: 2.8916586845106083	 Joint Distance: 4.5325759299027935	 Collisions: 0
+EE distance: 2.8877454782975436	 Joint Distance: 4.518362015159577	 Collisions: 0
+EE distance: 2.883827976509243	 Joint Distance: 4.504207464742825	 Collisions: 0
+EE distance: 2.8804229618697366	 Joint Distance: 4.491771849451965	 Collisions: 0
+EE distance: 2.8770199686213807	 Joint Distance: 4.479418030207896	 Collisions: 0
+EE distance: 2.8764983187770206	 Joint Distance: 4.476314419925095	 Collisions: 0
+EE distance: 2.8767632406835792	 Joint Distance: 4.475771118397832	 Collisions: 0
+EE distance: 2.8771255511608222	 Joint Distance: 4.475110669314423	 Collisions: 0
+EE distance: 2.8773759052620704	 Joint Distance: 4.474531456584689	 Collisions: 0
+EE distance: 2.877506564611076	 Joint Distance: 4.474163253258772	 Collisions: 0
+EE distance: 2.8785071111561864	 Joint Distance: 4.474483214642625	 Collisions: 0
+EE distance: 2.8779103427183315	 Joint Distance: 4.473323713286396	 Collisions: 0
+EE distance: 2.8781340650146263	 Joint Distance: 4.47306668804018	 Collisions: 0
+EE distance: 2.8782520116402823	 Joint Distance: 4.472522668632421	 Collisions: 0
+EE distance: 2.87837513419638	 Joint Distance: 4.47226386428271	 Collisions: 0
+EE distance: 2.8785571620916137	 Joint Distance: 4.47179100770827	 Collisions: 0
+EE distance: 2.8785963302621873	 Joint Distance: 4.471668199473037	 Collisions: 0
+EE distance: 2.878660852579929	 Joint Distance: 4.471530193448404	 Collisions: 0
+EE distance: 2.878745928186868	 Joint Distance: 4.471380079596791	 Collisions: 0
+EE distance: 2.8790071361314404	 Joint Distance: 4.470769893285616	 Collisions: 0
+EE distance: 2.879258538819283	 Joint Distance: 4.470081511544003	 Collisions: 0
+EE distance: 2.879413645030786	 Joint Distance: 4.4696069093817155	 Collisions: 0
+EE distance: 2.8796166248770616	 Joint Distance: 4.4690374840171625	 Collisions: 0
+EE distance: 2.879805202110974	 Joint Distance: 4.468523683884102	 Collisions: 0
+EE distance: 2.879896179382443	 Joint Distance: 4.468253592235132	 Collisions: 0
+EE distance: 2.8800163378114805	 Joint Distance: 4.467863321464381	 Collisions: 0
+EE distance: 2.8801889935371885	 Joint Distance: 4.467284821608294	 Collisions: 0
+EE distance: 2.8803182551584445	 Joint Distance: 4.466878235300315	 Collisions: 0
+EE distance: 2.8804310924970173	 Joint Distance: 4.466501930379759	 Collisions: 0
+EE distance: 2.880507871406714	 Joint Distance: 4.466147897259887	 Collisions: 0
+EE distance: 2.880553730859254	 Joint Distance: 4.465882059929034	 Collisions: 0
+EE distance: 2.8806361025636016	 Joint Distance: 4.465600680956385	 Collisions: 0
+EE distance: 2.880736955075397	 Joint Distance: 4.465308111696585	 Collisions: 0
+EE distance: 2.8808223643045205	 Joint Distance: 4.465039798157479	 Collisions: 0
+EE distance: 2.880871716210731	 Joint Distance: 4.464769206000202	 Collisions: 0
+EE distance: 2.8809104475148826	 Joint Distance: 4.464505284569311	 Collisions: 0
+EE distance: 2.8809623210475204	 Joint Distance: 4.4642508362253315	 Collisions: 0
+EE distance: 2.881024934879513	 Joint Distance: 4.464002176149113	 Collisions: 0
+EE distance: 2.8810699023549815	 Joint Distance: 4.463766836989455	 Collisions: 0
+EE distance: 2.8810896372415846	 Joint Distance: 4.463557430387563	 Collisions: 0
+EE distance: 2.8811115273739096	 Joint Distance: 4.463353219582903	 Collisions: 0
+EE distance: 2.8811499435231878	 Joint Distance: 4.463140008410951	 Collisions: 0
+EE distance: 2.8811881280517424	 Joint Distance: 4.46293273189308	 Collisions: 0
+EE distance: 2.881207976048988	 Joint Distance: 4.462730948228604	 Collisions: 0
+EE distance: 2.881215588953191	 Joint Distance: 4.462531905995047	 Collisions: 0
+EE distance: 2.8812291883316408	 Joint Distance: 4.462339773257804	 Collisions: 0
+EE distance: 2.881252118088659	 Joint Distance: 4.462154204824586	 Collisions: 0
+EE distance: 2.8845797510413895	 Joint Distance: 4.465220484400927	 Collisions: 0
+EE distance: 2.8812789534912766	 Joint Distance: 4.461322778038011	 Collisions: 0
+EE distance: 2.881312777766687	 Joint Distance: 4.461191229619237	 Collisions: 0
+EE distance: 2.8813052186052004	 Joint Distance: 4.461591107380605	 Collisions: 0
+EE distance: 2.883965995174291	 Joint Distance: 4.463287974275741	 Collisions: 0
+EE distance: 2.881272685247026	 Joint Distance: 4.460368327373846	 Collisions: 0
+EE distance: 2.8812653991025625	 Joint Distance: 4.460413102217755	 Collisions: 0
+EE distance: 2.883786191357684	 Joint Distance: 4.462627996904929	 Collisions: 0
+EE distance: 2.881281846961671	 Joint Distance: 4.459992446298625	 Collisions: 0
+EE distance: 2.881312919196767	 Joint Distance: 4.4606795235762595	 Collisions: 0
+EE distance: 2.8811492740670928	 Joint Distance: 4.459464717938427	 Collisions: 0
+EE distance: 2.8811652750516346	 Joint Distance: 4.459845403948246	 Collisions: 0
+EE distance: 2.883921805847435	 Joint Distance: 4.462355729105953	 Collisions: 0
+EE distance: 2.882729823935917	 Joint Distance: 4.461114569578791	 Collisions: 0
+EE distance: 2.88337252666068	 Joint Distance: 4.4621008419580415	 Collisions: 0
+EE distance: 2.8810699240278344	 Joint Distance: 4.458836044918761	 Collisions: 0
+EE distance: 2.881158563549417	 Joint Distance: 4.459585272204488	 Collisions: 0
+EE distance: 2.8812088495708483	 Joint Distance: 4.4596271058703	 Collisions: 0
+EE distance: 2.881129474222247	 Joint Distance: 4.459155151647503	 Collisions: 0
+EE distance: 2.8811478520562233	 Joint Distance: 4.459231919281287	 Collisions: 0
+EE distance: 2.88110780990856	 Joint Distance: 4.459081466085824	 Collisions: 0
+EE distance: 2.8810545828717076	 Joint Distance: 4.458939247694601	 Collisions: 0
+EE distance: 2.8810428100020857	 Joint Distance: 4.458860693339778	 Collisions: 0
+EE distance: 2.8810299341992707	 Joint Distance: 4.458749988017065	 Collisions: 0
+EE distance: 2.881003026562733	 Joint Distance: 4.458651003745968	 Collisions: 0
+EE distance: 2.8809650730773395	 Joint Distance: 4.458555486664483	 Collisions: 0
+EE distance: 2.8809296509701166	 Joint Distance: 4.45845851091507	 Collisions: 0
+EE distance: 2.8809072746250646	 Joint Distance: 4.458368032163232	 Collisions: 0
+EE distance: 2.880884797034474	 Joint Distance: 4.458277037315609	 Collisions: 0
+EE distance: 2.880851856367084	 Joint Distance: 4.458186769765173	 Collisions: 0
+EE distance: 2.8808117251348073	 Joint Distance: 4.458098704865238	 Collisions: 0
+EE distance: 2.8807759238059623	 Joint Distance: 4.458013050918946	 Collisions: 0
+EE distance: 2.880748075905948	 Joint Distance: 4.4579307965564245	 Collisions: 0
+EE distance: 2.880719827005885	 Joint Distance: 4.4578507079919225	 Collisions: 0
+EE distance: 2.8806841066936886	 Joint Distance: 4.457771641125044	 Collisions: 0
+EE distance: 2.880644568614323	 Joint Distance: 4.457694160251003	 Collisions: 0
+EE distance: 2.8806088997735584	 Joint Distance: 4.457619198126963	 Collisions: 0
+EE distance: 2.8805779936561766	 Joint Distance: 4.457546783672207	 Collisions: 0
+EE distance: 2.8805464200189053	 Joint Distance: 4.457476126705181	 Collisions: 0
+EE distance: 2.880510394240912	 Joint Distance: 4.457406706266128	 Collisions: 0
+EE distance: 2.8804723216847994	 Joint Distance: 4.457338848013541	 Collisions: 0
+EE distance: 2.8804372554820987	 Joint Distance: 4.457273130663402	 Collisions: 0
+EE distance: 2.8804053469261364	 Joint Distance: 4.457209501944319	 Collisions: 0
+EE distance: 2.880372301306253	 Joint Distance: 4.4571473570655655	 Collisions: 0
+EE distance: 2.880336018310566	 Joint Distance: 4.4570863724467	 Collisions: 0
+EE distance: 2.880299953785605	 Joint Distance: 4.457028319528785	 Collisions: 0
+EE distance: 2.8802666769131915	 Joint Distance: 4.456971936536175	 Collisions: 0
+EE distance: 2.8802358405447093	 Joint Distance: 4.456917201750648	 Collisions: 0
+EE distance: 2.880203744915502	 Joint Distance: 4.456863850320506	 Collisions: 0
+EE distance: 2.8801686806052924	 Joint Distance: 4.456811282819371	 Collisions: 0
+EE distance: 2.8801334382164065	 Joint Distance: 4.456760143587746	 Collisions: 0
+EE distance: 2.8801008096952674	 Joint Distance: 4.456710821004158	 Collisions: 0
+EE distance: 2.8800696671367194	 Joint Distance: 4.4566628775037636	 Collisions: 0
+EE distance: 2.8800366100257273	 Joint Distance: 4.45661507221701	 Collisions: 0
+EE distance: 2.8800013697044027	 Joint Distance: 4.456568156419215	 Collisions: 0
+EE distance: 2.8799658204217047	 Joint Distance: 4.456522551934306	 Collisions: 0
+EE distance: 2.879932543311858	 Joint Distance: 4.456478324909007	 Collisions: 0
+EE distance: 2.879900983729266	 Joint Distance: 4.45643547274204	 Collisions: 0
+EE distance: 2.8798686548771686	 Joint Distance: 4.456393594277435	 Collisions: 0
+EE distance: 2.879834673147141	 Joint Distance: 4.456352511811684	 Collisions: 0
+EE distance: 2.879801082851778	 Joint Distance: 4.45631285090934	 Collisions: 0
+EE distance: 2.879771652653709	 Joint Distance: 4.456276480741221	 Collisions: 0
+EE distance: 2.879743521512907	 Joint Distance: 4.4562410513241275	 Collisions: 0
+EE distance: 2.8797148233133125	 Joint Distance: 4.45620621400176	 Collisions: 0
+EE distance: 2.8796850990231193	 Joint Distance: 4.456172364736175	 Collisions: 0
+EE distance: 2.8796552275331977	 Joint Distance: 4.456139277742004	 Collisions: 0
+EE distance: 2.879627013260765	 Joint Distance: 4.456107278912582	 Collisions: 0
+EE distance: 2.8796001882557527	 Joint Distance: 4.456076344748477	 Collisions: 0
+EE distance: 2.8795731554042985	 Joint Distance: 4.456046144813452	 Collisions: 0
+EE distance: 2.8795451119398394	 Joint Distance: 4.456016581628999	 Collisions: 0
+EE distance: 2.8795155022359484	 Joint Distance: 4.455986478654845	 Collisions: 0
+EE distance: 2.879486651295155	 Joint Distance: 4.455956804764189	 Collisions: 0
+EE distance: 2.879459094908915	 Joint Distance: 4.45592828607545	 Collisions: 0
+EE distance: 2.879431301590327	 Joint Distance: 4.455900363557538	 Collisions: 0
+EE distance: 2.879403227420483	 Joint Distance: 4.455873103257009	 Collisions: 0
+EE distance: 2.8793754219821808	 Joint Distance: 4.45584660869942	 Collisions: 0
+EE distance: 2.879348663635947	 Joint Distance: 4.45582090883474	 Collisions: 0
+EE distance: 2.8793229191963716	 Joint Distance: 4.455795999962435	 Collisions: 0
+EE distance: 2.879297161587502	 Joint Distance: 4.455771708895218	 Collisions: 0
+EE distance: 2.8792709567087362	 Joint Distance: 4.45574794897371	 Collisions: 0
+EE distance: 2.879245012255806	 Joint Distance: 4.455724823341485	 Collisions: 0
+EE distance: 2.8792201468809786	 Joint Distance: 4.455702440521103	 Collisions: 0
+EE distance: 2.879196177275865	 Joint Distance: 4.4556807771275615	 Collisions: 0
+EE distance: 2.8791722421783543	 Joint Distance: 4.455659657263621	 Collisions: 0
+EE distance: 2.8791480404296044	 Joint Distance: 4.455639011982439	 Collisions: 0
+EE distance: 2.87912411708993	 Joint Distance: 4.4556189216620465	 Collisions: 0
+EE distance: 2.8791011132568505	 Joint Distance: 4.455599501753074	 Collisions: 0
+EE distance: 2.8790790598303553	 Joint Distance: 4.455580703943449	 Collisions: 0
+EE distance: 2.87905707356422	 Joint Distance: 4.455562387282869	 Collisions: 0
+EE distance: 2.8790348671941293	 Joint Distance: 4.455544487072519	 Collisions: 0
+EE distance: 2.8790128402319466	 Joint Distance: 4.455527082447649	 Collisions: 0
+EE distance: 2.878991799715414	 Joint Distance: 4.455510277507694	 Collisions: 0
+EE distance: 2.8789716226751727	 Joint Distance: 4.45549403666304	 Collisions: 0
+EE distance: 2.883511846715599	 Joint Distance: 4.4723981827272	 Collisions: 0
+EE distance: 2.878523522840543	 Joint Distance: 4.455279022729246	 Collisions: 0
+EE distance: 2.8780476462961455	 Joint Distance: 4.459600429271166	 Collisions: 0
+EE distance: 2.8857742117231586	 Joint Distance: 4.46229320996949	 Collisions: 0
+EE distance: 2.877911137232924	 Joint Distance: 4.454785801491159	 Collisions: 0
+EE distance: 2.881138777705162	 Joint Distance: 4.457789349161659	 Collisions: 0
+EE distance: 2.879987342235038	 Joint Distance: 4.4567430969867265	 Collisions: 0
+EE distance: 2.880786655143063	 Joint Distance: 4.45745188393113	 Collisions: 0
+EE distance: 2.8802702164148095	 Joint Distance: 4.45668609552039	 Collisions: 0
+EE distance: 2.8783386363327437	 Joint Distance: 4.455020717162297	 Collisions: 0
+EE distance: 2.8821711680319853	 Joint Distance: 4.45866556465685	 Collisions: 0
+EE distance: 2.8801881327800913	 Joint Distance: 4.457054038997614	 Collisions: 0
+EE distance: 2.8822379883508487	 Joint Distance: 4.472227903914537	 Collisions: 0
+EE distance: 2.8811064116890828	 Joint Distance: 4.458375189242711	 Collisions: 0
+EE distance: 2.881000776850318	 Joint Distance: 4.462192058920838	 Collisions: 0
+EE distance: 2.876094184627979	 Joint Distance: 4.454197468418456	 Collisions: 0
+EE distance: 2.881040923597651	 Joint Distance: 4.459971179539149	 Collisions: 0
+Trying to reach rest -------------------------------------------------------------------------------------------------------
+Target EE.[[0.5 0.  1. ]]
+Type of target_ee.<class 'numpy.ndarray'>
+1. Object ID: 13	Position: [-2.2563322   0.85516256 -0.02349638]	Distance: 3.2940639945795036
+2. Object ID: 14	Position: [-2.012697    0.8291606   0.04458489]	Distance: 3.0482246391644803
+3. Object ID: 15	Position: [-2.2195966   0.8268469   0.15476094]	Distance: 3.1901345995918255
+4. Object ID: 16	Position: [-2.033925    0.89187044 -0.21838841]	Distance: 3.1957727795669246
+5. Object ID: 17	Position: [-2.104882    0.8556703  -0.31387427]	Distance: 3.286468669312259
+6. Object ID: 18	Position: [4.1199937  0.03911486 0.02483088]	Distance: 3.696369925477754
+7. Object ID: 19	Position: [3.4214876  0.05630668 0.09734234]	Distance: 3.0179131483443653
+8. Object ID: 20	Position: [ 3.8693366   0.02558421 -0.27428493]	Distance: 3.57264827827123
+9. Object ID: 21	Position: [3.877663   0.06154929 0.01893394]	Distance: 3.471455385367663
+10. Object ID: 22	Position: [ 3.6735566   0.03455202 -0.28297415]	Distance: 3.4000815353851372
+11. Object ID: 23	Position: [0.88935566 0.03882454 6.462944  ]	Distance: 5.267712225614007
+12. Object ID: 24	Position: [1.047629   0.03882432 6.269397  ]	Distance: 5.085323501804696
+13. Object ID: 25	Position: [-2.0871916  0.8246503  1.9678997]	Distance: 2.985409590336112
+14. Object ID: 26	Position: [-2.2316694  0.8370805  1.7941195]	Distance: 3.0833465840790826
+15. Object ID: 27	Position: [-2.003891   0.8551614  1.8806747]	Distance: 2.898993825533847
+16. Object ID: 28	Position: [-2.2787735  0.851469   2.1843789]	Distance: 3.2277996172074515
+18. Object ID: 30	Position: [-2.2105184  1.0660179 -0.8910717]	Distance: 3.735078334390583
+19. Object ID: 31	Position: [-2.050016   1.6455994 -0.9767928]	Distance: 3.898639331038641
+20. Object ID: 32	Position: [-2.078154   1.2920128 -1.0535192]	Distance: 3.812397521227235
+Closest object id: 27 | Distance: 2.898993825533847 | Position: [-2.003891   0.8551614  1.8806747]
+Episode over!!!
